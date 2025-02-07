@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Whether
+{
+	public static void main(String[] args)
+	{
+		System.out.print("Enter Month: ");
+		String month = new Scanner(System.in).next().toUpperCase();
+		String op = (month.equals("OCT")||month.equals("NOV")||month.equals("DEC")||month.equals("JAN"))?"Winter":
+			        (month.equals("FEB")||month.equals("MAR")||month.equals("APR")||month.equals("MAY"))?"Summer":
+			        (month.equals("JUN")||month.equals("JUL")||month.equals("AUG")||month.equals("SEP"))?"Monsoon":
+			        "Invslid Month";
+		System.out.println(op);
+	}
+}
+		

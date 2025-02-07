@@ -1,0 +1,51 @@
+class EasyLevel
+{
+	public static void main(String[] args)
+	{
+		int a = 5, b = 3;
+        int c = a++ + b;
+        System.out.println("a = " + a + ", b = " + b + ", c = " + c);//1
+
+		int x = 10, y = 4;
+        int z = ++x - y;
+        System.out.println("x = " + x + ", y = " + y + ", z = " + z);//2
+
+		int p = 7;
+        int q = p-- + p;
+        System.out.println("p = " + p + ", q = " + q);//3
+
+		int m = 8, n = 2;
+        int o = m++ + ++n;
+        System.out.println("m = " + m + ", n = " + n + ", o = " + o);//4
+
+		a = 6;
+        b = --a + a++;
+        System.out.println("a = " + a + ", b = " + b);//5
+
+		x = 5; 
+	    y = 5;
+        z = x-- + y++;
+        System.out.println("x = " + x + ", y = " + y + ", z = " + z);//6
+
+	    p = 2;
+	    q = 3;
+        int r = ++p + --q;
+        System.out.println("p = " + p + ", q = " + q + ", r = " + r);//7
+
+		a = 9;
+	    b = 5;
+        c = --a + b++;
+        System.out.println("a = " + a + ", b = " + b + ", c = " + c);//8
+
+		x = 4;
+		y = 6;
+        z = y-- + ++x;
+        System.out.println("x = " + x + ", y = " + y + ", z = " + z);//9
+
+	    m = 10;
+		n = 1;
+        o = m-- + --n;
+        System.out.println("m = " + m + ", n = " + n + ", o = " + o);
+
+	}
+}

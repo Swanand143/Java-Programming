@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class EvenSum
+{
+	public static void main(String[] args)
+	{
+		System.out.print("Enter a number : ");
+		int num = new Scanner(System.in).nextInt();
+		int sum = 0;
+		while (num>0)
+		{
+			int rem = num%10;
+			if(rem%2==0)
+			{
+				sum = sum + rem;
+			}
+			num/=10;
+		}
+       System.out.println("Sum of even digits : "+sum);
+	}
+}

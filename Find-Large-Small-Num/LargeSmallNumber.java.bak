@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class LargeSmallNumber
+{
+	public static void main(String[] args)
+	{
+		System.out.print("Enter num 1: ");
+		int num1 = new Scanner(System.in).nextInt();
+
+		System.out.print("Enter num 2: ");
+		int num2 = new Scanner(System.in).nextInt();
+
+		System.out.print("Enter num 3: ");
+		int num3 = new Scanner(System.in).nextInt();
+
+		System.out.print("Enter num 4: ");
+		int num4 = new Scanner(System.in).nextInt();
+
+		int large = (num1>num2)?((num1>num3)?(num1):((num3>num4)?(num3):(num4))):((num2>num3)?(num2):((num3>num4)?(num3):(num4)));
+
+		//int large =(num1>num2)?((num1>num3)?(num1):(num3)):((num2>num3)?(num2):(num3));
+		//int small =(num1<num2)?((num1<num3)?(num1):(num3)):((num2<num3)?(num2):(num3));
+
+
+		System.out.println("Larger number is: "+large);
+		//System.out.println("Smaller number is: "+small);
+
+
+	}
+}

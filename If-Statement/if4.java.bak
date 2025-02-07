@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class if4
+{
+	public static void main(String [] args)
+	{
+		System.out.print("Are you Paid Student ?");
+		boolean ip = new Scanner(System.in).nextBoolean();
+		if (ip)
+		{
+            System.out.println("Pay The Fees");
+		}
+		System.out.println("Do The Study");
+	}
+}

@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class For9
+{
+	public static void main(String[] args)
+	{
+		Scanner ab = new Scanner(System.in);
+		System.out.print("Enter Your Name : ");
+		String name = ab.next().toLowerCase();
+		int len = name.length();
+		int total = 0;
+		for (int i=0; i<len; i++)
+		{
+			char ch = name.charAt(i);
+			if ((ch =='a')||(ch =='e')||(ch =='i')||(ch =='o')||(ch =='u'))
+			{
+				
+				System.out.println((1+total++)+". "+ch+" -->Index No : "+i);
+			}
+		}
+		 
+		if (total!=0)
+		{
+           System.out.println("Total Vowels in Your Name : "+total);
+		}
+		else{
+			System.out.println("No Vowels Found In Your Name!");
+		}
+
+	}
+}

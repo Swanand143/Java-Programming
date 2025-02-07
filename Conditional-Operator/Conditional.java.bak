@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Conditional
+{
+	public static void main(String[] args)
+	{
+		System.out.print("Enter the number: ");
+		int num = new Scanner(System.in).nextInt();
+		String ans = num%2==0 ? "even" : "odd";
+		System.out.println("The given number is "+ans);
+
+		System.out.print("Enter the number: ");
+		int num2 = new Scanner(System.in).nextInt();
+		String ans2 = 0<num2 ? "positive" : "negative";
+		System.out.println("The given number is "+ans2);
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class CelToFar
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter temp in degree cel: ");
+		double degree = sc.nextDouble();
+
+		double conversion = (9/5d)*degree+32;
+		System.out.print("Celsius is "+conversion+" F");
+
+	    
+	}
+
+	
+}
