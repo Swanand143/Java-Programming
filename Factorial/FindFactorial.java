@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class FindFactorial
+{
+	public static void main(String[] args)
+	{
+	Scanner ab = new Scanner(System.in);
+	System.out.print("Enter a number : ");
+    int num = ab.nextInt();
+	int fact = 1;
+	for (int i=num; i>=1; i--)
+	{
+		fact *= i;//fact = fact * i
+	}
+    System.out.println("The Factorial of "+num+" is : "+fact);
+	}
+}
