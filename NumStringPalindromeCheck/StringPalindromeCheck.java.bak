@@ -13,7 +13,7 @@ class StringPalindromeCheck
 			char ch = str.charAt(i);
 			revString = ch + revString;
 		}
-		System.out.println("Reverse String is "+revString+"\n");
+		System.out.println("Reverse String is "+revString+);
 		if (str.equals(revString))
 		{
 			System.out.println(str+" is a Palindrome");
