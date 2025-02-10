@@ -3,12 +3,16 @@ class NumberToWord
 {
 	public static void main(String[] args)
 	{
-		System.out.println("<-----Number To Word----->");
+		System.out.println("<----- Number To Word ----->");
 		Scanner ab = new Scanner(System.in);
 		System.out.print("Enter a number : ");
 		int num = ab.nextInt();
 		String word = ""; // empty now
 
+		if (num == 0) {
+            System.out.println("0 = Zero");
+            return;
+		
 		for (int i = num; i>0; i/=10 )
 		{
 			int rem = i%10;
@@ -24,6 +28,7 @@ class NumberToWord
 			case 7:word = "Seven "+word;break;
 			case 8:word = "Eight "+word;break;
 			case 9:word = "Nine "+word;break;
+			default:System.out.print("Invalid Number");break;
 			
 			}
 		}
