@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class SumOfPrimeFactors
+{
+	public static void main(String[] args)
+	{
+	Scanner ab = new Scanner(System.in);
+	System.out.print("Enter the number : ");
+	int num = ab.nextInt();
+	int cnt = 0;
+	int den = 2;
+	for (int i=1; i<=num; i++ )
+	{
+		if (num%i==0)	
+		{
+			while (den<i)
+			{
+				if (i%den==0)
+				{
+					break;
+				}
+				den++;
+			}
+			if (i==den)
+			{
+				System.out.print(i+" ");
+			}
+		}
+		
+	}
+	
+	}
+}
