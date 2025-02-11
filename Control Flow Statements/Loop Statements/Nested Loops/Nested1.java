@@ -1,0 +1,15 @@
+// we print hi 3 times for 3 days
+class Nested1//loop inside loop
+{
+	public static void main(String[] args)
+	{
+		for (int repeat=0; repeat<3; repeat++)
+		{
+			for (int i=0; i<3; i++)
+			{
+				System.out.println("Hi");
+			}
+            System.out.println("_______");
+		}
+	}
+}
