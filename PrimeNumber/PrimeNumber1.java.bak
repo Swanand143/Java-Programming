@@ -11,7 +11,7 @@ class PrimeNumber1
 		if (num< 2)
 		{
            System.out.println(num+" it is not Prime Number");
-		}11-02-2025
+		}
 		else{
 		while (den<=num/2)//(den<num) method2
 		{
@@ -21,7 +21,7 @@ class PrimeNumber1
 			}
 			den++;
 		}
-		if (den>num/2) //(num==den) method2
+		if (num==den) //(num==den) method2
 		{
 			System.out.println(num+" it is Prime Number");
 		}
