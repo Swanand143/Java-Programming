@@ -1,0 +1,18 @@
+class OtpGeneration
+{
+	public static void main(String[] args)
+	{
+		String otp ="";//otp initially empty
+
+		for (int cnt=1 ;cnt<=10 ; )//only 10 otp are generated
+		{
+			otp += (int)(Math.random()*1000000);//this fn generates random 6 digit number
+			if (otp.length()==6)
+			{
+				System.out.println(otp);
+				cnt++;
+			}
+			otp = "";
+		}
+	}
+}
