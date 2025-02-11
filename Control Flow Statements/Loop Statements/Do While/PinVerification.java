@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class PinVerification
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int storedPin = 1234;
+		int attempt = 0;
+		do
+		{
+			System.out.print("\nEnter Your Pin :");
+			int pin = sc.nextInt();
+			if (pin==storedPin)
+			{
+			    System.out.println("Login Successful");
+				break;
+			}
+			else
+			{
+				System.out.println("Invalid Pin !");
+				attempt++;
+				System.out.println(3-attempt+" attempts left");
+			}
+		}
+		while (attempt<3);
+		if (attempt==3)
+		{
+			System.out.println("Maximum Attempts Reached !");
+		}
+	}
+}
