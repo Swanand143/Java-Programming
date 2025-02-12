@@ -7,7 +7,7 @@ class AtoZSeqNum
 		System.out.println("\n<--- Print A to Z Sequence Number --->\n");
 		System.out.print("Enter Character : ");
 		String str = sc.next().toUpperCase();
-		int len = str.length();
+		int len = str.length();s
 		int value = 0;
 		boolean flag = true;
 
@@ -21,7 +21,7 @@ class AtoZSeqNum
         }
         if (!flag||len>2) 
 		{
-            System.out.println("Enter a valid character (A-Z only or Max 2 letters).");
+            System.out.println("Enter a valid character (A-Z only or Max 2 letters(AA)).");
 		}
 		else if(len==1)
 		{
