@@ -1,0 +1,67 @@
+import java.util.Scanner;
+class FindPrimeNum
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("\n<--- Find Prime Number --->\n");
+		System.out.print("Enter Starting Number : ");
+		int num1 = sc.nextInt();
+		int dup = num1;
+		System.out.print("Enter Ending Number : ");
+		int num2 = sc.nextInt();
+		System.out.println();
+		int cnt =0;
+		System.out.print("Prime Numbers : ");
+		while (num1<=num2)
+		{
+			int den = 2;
+			while (den<num1)
+			{
+				if (num1%den==0)
+				{
+					break;
+				}
+				den++;
+			}
+			if (den==num1)
+			{
+                System.out.print(num1+" "); 
+				cnt++;
+			}
+			num1++;
+			
+		}
+	    System.out.println("\nTotal Prime Numbers "+dup+" to "+num2+" : "+cnt);
+	}
+}
+
+
+
+
+//method 2
+/*for (int i=num1; i<=num2 ;i++)
+		{
+			boolean flag = true;
+			if (i<2)
+			{
+				flag =false;
+			}
+			else
+			{
+				for (int j = 2;j<i ;j++ )
+				{
+					if (i%j==0)
+					{
+						flag =false;
+						break;
+					}
+
+				}
+				if(flag)
+				{
+					System.out.print(i+" ");
+					cnt++;
+				}
+			}
+		}*/
