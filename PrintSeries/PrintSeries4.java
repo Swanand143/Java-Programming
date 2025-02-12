@@ -1,0 +1,21 @@
+//       10     30     68     130    222
+//1^3+1  2^3+2  3^3+3  4^3+4  5^3+5  6^3+6
+import java.util.Scanner;
+class PrintSeries4
+{
+	public static void main(String[] args)
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.print("Enter a range : ");
+		int range = sc.nextInt();
+		for (int i=2; i<=range; i++)
+		{
+			int pow = 1;
+			for (int j=1; j<=3 ;j++)
+			{
+				pow*=i;
+			}
+			System.out.print((pow+i)+" ");
+		}
+	}
+}
