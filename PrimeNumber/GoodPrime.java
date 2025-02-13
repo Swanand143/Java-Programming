@@ -60,6 +60,6 @@ class GoodPrime
 		}
 	    System.out.println();
 	    System.out.print("Total Good Prime Numbers : "+cnt);
-		System.out.println();
+	    System.out.println();
 	}
 }
