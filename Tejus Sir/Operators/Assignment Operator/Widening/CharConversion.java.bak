@@ -1,0 +1,19 @@
+class CharConversion
+{
+	public static void main(String[] Args)
+	{
+		char c = 'W';
+		//short s = c; not possible char to short 
+		int i = c;
+		long l = c;
+		float f = c;
+		double d = c;
+
+		//System.out.println("Char to short: "+s);
+		System.out.println("Char to int: "+i);
+		System.out.println("Char to long: "+l);
+		System.out.println("Char to float: "+f);
+		System.out.println("Char to double: "+d);
+
+	}
+}

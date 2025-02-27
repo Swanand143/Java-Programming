@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class if1
+{
+	public static void main(String [] args)
+	{
+		System.out.print("Enter Bill Amount: ");
+		double billAmount = new Scanner (System.in).nextDouble();
+		if (billAmount>2000)
+		{
+			billAmount = billAmount-billAmount*0.1;
+		}
+		System.out.println("Your Total Bill Amount is Rs. "+billAmount);
+
+	}
+}
