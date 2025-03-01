@@ -216,5 +216,20 @@ class Restaurant
 		}
 		basket = dupBasket; 
 	}
-	
+	public static void tableBooking()
+	{
+		System.out.println();
+		System.out.println(" *** Table Booking *** ");
+		System.out.println();
+	}
+	public static void billGenerate()
+	{
+		double totalBill = 0;
+		for (String foodItem : basket) 
+		{
+			String [] arr = foodItem.split(" ");
+			totalBill += Double.parseDouble(arr[4]);
+		}
+		System.out.println("Total Bill : "+totalBill+" Rs.");
+	}
 }
