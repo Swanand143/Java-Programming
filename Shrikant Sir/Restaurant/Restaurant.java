@@ -100,6 +100,23 @@ class Restaurant
 		        	     System.exit(0); break;
 		        default : System.out.println("Invalid Input");    	
 		    }
+		}
+	}
+	public static void menu(Scanner sc)
+	{
+		for (; ; ) 
+		{
+			System.out.println();
+			System.out.println(" *** Menu *** ");
+			System.out.println("101 : Paneer_Buttur = 250/-");
+			System.out.println("102 : Special_Shevbhaji = 150/-");
+			System.out.println("103 : Veg_Kolhapuri = 180/-");
+			System.out.println("104 : Rice_Daal = 100/-");
+			System.out.println("105 : Roti = 15/-");
+			System.out.println("106 : Exit Menu");
+			System.out.println();
+			System.out.print("Enter an Food Id : ");
+			int id = sc.nextInt();
 			
 		}
 	}
