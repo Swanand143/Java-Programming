@@ -175,5 +175,23 @@ class Restaurant
 		System.out.print("Enter the option : ");
 		int opt =sc.nextInt();
 		System.out.println();
+		switch(opt)
+		{
+		    case 1:{
+		    	System.out.println("Order Cancelled");
+		    	basket.clear();
+		    	break;
+		    }
+		    case 2:{
+		    	System.out.print("Enter Food Id :");
+		    	int foodId = sc.nextInt();
+		    	removeFoodId(foodId);
+		    	break;
+		    }
+		    case 3:{
+		    	billGenerate();
+		    	break;
+		    }
+		}
 	}
 }
