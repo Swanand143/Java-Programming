@@ -154,4 +154,26 @@ class Restaurant
 			}
 		}
 	}
+	public static void order(Scanner sc)
+	{
+		System.out.println();
+		System.out.println(" *** Orders *** ");
+		System.out.println();
+		if (basket.size()==0) 
+		{
+			System.out.println("Basket is empty add Food Items");
+		}
+		for (String foodItem : basket) 
+		{
+			System.out.println(foodItem);
+		}
+		System.out.println();
+		System.out.println("1. Cancel Order");
+		System.out.println("2. Remove Food Item");
+		System.out.println("3. Proceed to Payment");
+		System.out.println();
+		System.out.print("Enter the option : ");
+		int opt =sc.nextInt();
+		System.out.println();
+	}
 }
