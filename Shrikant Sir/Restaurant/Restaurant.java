@@ -117,7 +117,41 @@ class Restaurant
 			System.out.println();
 			System.out.print("Enter an Food Id : ");
 			int id = sc.nextInt();
-			
+			switch(id)
+			{
+			    case 101:{
+			    	basket.add("101 : Paneer_Buttur = 250");
+			    	System.out.println("Paneer Buttur added inside basket");
+			    	break;
+			    }
+		    	case 102:{
+		    		basket.add("102 : Special_Shevbhaji = 150");
+		    		System.out.println("Special Shevbhaji added inside basket");
+		    		break;
+		    	}
+		        case 103:{
+		        	basket.add("103 : Veg_Kolhapuri = 180");
+		        	System.out.println("Veg Kolhapuri added inside basket");
+		        	break;
+		        }
+		        case 104:{
+		        	basket.add("104 : Rice_Daal = 100");
+		        	System.out.println("Rice Daal added inside basket");
+		        	break;
+		        }
+		        case 105:{
+		        	basket.add("105 : Roti = 15");
+		        	System.out.println("Roti added inside basket");
+		        	break;
+		        }
+		        case 106:{
+		        	return;
+		        }
+		        default:{
+		        	System.out.println("Inavlid Food Id");
+		        	break;
+		        }
+			}
 		}
 	}
 }
