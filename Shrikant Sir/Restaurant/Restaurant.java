@@ -4,6 +4,7 @@ class Restaurant
 	static String name ; // null
 	static long contact ; // 0
 	static String address; // null
+	static ArrayList<String> basket = new ArrayList<>();
 
 	public static void main(String[] args) 
 	{
@@ -77,20 +78,29 @@ class Restaurant
 	}
 	public static void homePage(Scanner sc)
 	{
-		System.out.println(" **** Home Page **** ");
-		System.out.println();
-		System.out.println("1. Menu");
-		System.out.println("2. Order");
-		System.out.println("3. Table booking");
-		System.out.println("4. Logout");
-		System.out.println();
-		System.out.print("Enter an option : ");
-		int opt = sc.nextInt();
-
-		/*switch(opt)
+		for (; ; ) 
 		{
-		   case 1 : menu(); break;
-		}*/
+		    System.out.println();
+		    System.out.println(" **** Home Page **** ");
+		    System.out.println();
+		    System.out.println("1. Menu");
+		    System.out.println("2. Order");
+		    System.out.println("3. Table booking");
+		    System.out.println("4. Logout");
+		    System.out.println();
+		    System.out.print("Enter an option : ");
+		    int opt = sc.nextInt();
 
+		    switch(opt)
+		    {
+		        case 1 : menu(sc); break;
+		        case 2 : order(sc); break;
+		        case 3 : tableBooking(); break;
+		        case 4 : System.out.println("Thank You & Visit Again");
+		        	     System.exit(0); break;
+		        default : System.out.println("Invalid Input");    	
+		    }
+			
+		}
 	}
 }
