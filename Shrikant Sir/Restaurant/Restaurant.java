@@ -194,4 +194,27 @@ class Restaurant
 		    }
 		}
 	}
+	public static void removeFoodId(int foodId)
+	{
+		ArrayList<String> dupBasket = new ArrayList<>(basket);
+		int indx = 0;
+		boolean flag = false;
+		for (String foodItem : dupBasket) 
+		{
+			String [] arr = foodItem.split(" ");
+			if (arr[0].equals(foodId)) 
+			{
+				dupBasket.remove(indx);
+				flag = true;
+				System.out.println("Food Item Removed");
+			}
+			indx++;
+		}
+		if (!flag) 
+		{
+			System.out.println("Food Item Doesn't Exist In Basket");
+		}
+		basket = dupBasket; 
+	}
+	
 }
