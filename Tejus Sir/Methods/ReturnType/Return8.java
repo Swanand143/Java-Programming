@@ -6,14 +6,34 @@ class Return8
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number : ");
 		int num = sc.nextInt();
-		//System.out.println("Rotated Number : "+rotate(num));
-		int rot = rotate(num);
-		while(rot!=num)
-		{
-			System.out.println(rot);
-			rot = rotate(rot);
-		}
-		System.out.println(rot);
+		boolean flag  = true;
+	    if (isPrime(num)) 
+	    {
+
+	    	int rot = rotate(num);
+	    	while(rot!=num)
+	    	{
+	    		if (!(isPrime(rot)))
+		        {
+			       flag = false;
+			       break; 
+		        }
+		        System.out.println(rot);
+		        rot = rotate(rot);
+	    	}
+	    	if (flag) 
+	    	{
+	    		System.out.println("All rotation are prime");
+	    		
+	    	}
+	    	else{
+	    		System.out.println("Entered number is prime but all rotaions are not prime");
+	    	}
+	    }
+	    else 
+	    {
+	    	System.out.println("Entered number is not prime");
+	    }
 	}
 	public static int rotate(int num)
 	{
@@ -41,5 +61,17 @@ class Return8
 			pow*=digit;
 		}
 		return pow;
+	}
+	public static boolean isPrime(int num)
+	{
+		int den = 2;
+		for (; den<num; den++) 
+		{
+			if (num%den==0) 
+			{
+				return false;
+			}
+		}
+		return true;
 	}
 }
