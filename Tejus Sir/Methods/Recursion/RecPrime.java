@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RecPrime
+class RecPrime //recursion of to checking given number is prime or not
 {
 	public static void main(String[] args) 
 	{

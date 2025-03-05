@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RecSumOfDigit
+class RecSumOfDigit//recursion of sum of digit of given number
 {
 	public static void main(String[] args) 
 	{
@@ -13,7 +13,7 @@ class RecSumOfDigit
 		{
 			return sum;
 		}
-		//return sumOfDigit(num/10,sum+=(num%10));
-		return num==0 ? sum : sumOfDigit(num/10,sum+=(num%10));
+        return sumOfDigit(num/10,sum+=(num%10));
+		//return num==0 ? sum : sumOfDigit(num/10,sum+=(num%10));
 	}
 }

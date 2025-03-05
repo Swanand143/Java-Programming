@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RecPower
+class RecPower // recursion of finding power to given base and poer
 {
 	public static void main(String[] args) 
 	{

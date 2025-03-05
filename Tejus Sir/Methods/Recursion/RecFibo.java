@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RecFibo
+class RecFibo //recursion of to generating a fibonacci series
 {
 	public static void main(String[] args) 
 	{

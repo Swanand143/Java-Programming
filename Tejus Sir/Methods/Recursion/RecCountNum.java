@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RecCountNum
+class RecCountNum// recursion of printing count of a number
 {
 	public static void main(String[] args) 
 	{
@@ -13,7 +13,7 @@ class RecCountNum
 		{
 			return ct;
 		}
-		//return count(num/10,++ct);
-		return num == 0 ? ct : count(num/10,++ct);
+		return count(num/10,++ct);
+		//return num == 0 ? ct : count(num/10,++ct);
 	}
 }

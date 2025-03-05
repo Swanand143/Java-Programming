@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RecPalindrome
+class RecPalindrome //recursion of to check given number is palindrome or not
 {
 	public static void main(String[] args) 
 	{

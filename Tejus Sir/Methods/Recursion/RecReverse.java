@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RecReverse
+class RecReverse//recursion of taking a number and reverse it
 {
 	public static void main(String[] args) 
 	{

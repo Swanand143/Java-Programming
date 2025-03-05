@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RecFact
+class RecFact //recursion of factorial of a number 
 {
 	public static void main(String[] args) 
 	{
