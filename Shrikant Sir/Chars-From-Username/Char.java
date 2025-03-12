@@ -1,8 +1,9 @@
 import java.util.Scanner;
-class For8
+class Char
 {
 	public static void main(String[] args)
 	{
+		//Chars From Username
 		Scanner ab = new Scanner(System.in);
 		System.out.print("Enter Your Name : ");
 		String name = ab.next().toUpperCase();
