@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class EmirpProgram
+class EmirpProgram2
 {
 	public static void main(String[] args)
 	{
