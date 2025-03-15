@@ -14,9 +14,5 @@ class PerimeterAreaRect2
 		float area = length*breadth;
 		System.out.println("Area of rectangle is : "+area+"cm^2") ;
 
-		float Perimeter =2*(length + breadth);
-		System.out.println("Perimeter of rectangle is : "+Perimeter+"cm");
-
-
 	}
 }
