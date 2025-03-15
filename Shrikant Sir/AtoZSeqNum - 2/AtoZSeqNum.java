@@ -11,13 +11,7 @@ class AtoZSeqNum2
 		int value = 0;
 		boolean flag = true;
 
-        for (int i = 0; i < len; i++) 
-		{
-            if (str.charAt(i) < 'A' || str.charAt(i) > 'Z') 
-			{
-                flag = false;
-                break;
-            }
+        
         }
         if (!flag||len>2) 
 		{
