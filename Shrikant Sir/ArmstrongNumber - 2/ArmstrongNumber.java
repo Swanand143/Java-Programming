@@ -12,17 +12,7 @@ class ArmstrongNumber2
 		{
 			len++;
 		}
-		while (num>0)
-		{
-			int rem = num%10;
-			int pow = 1;
-			for (int i=1 ;i<=len;i++ )
-			{
-				pow*=rem;
-			}
-				sum+=pow;
-				num/=10;
-		}
+		
 		System.out.println(dup==sum?dup+" is Armstrong number":dup+" is not Armstrong number");
 	}
 }
