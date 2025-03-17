@@ -8,10 +8,7 @@ class ArmstrongNumber2
 		int num = sc.nextInt();
 		int len=0,sum=0;
 		int dup =num;
-		for (int i=num; i>0 ;i/=10 )
-		{
-			len++;
-		}
+		
 		
 		System.out.println(dup==sum?dup+" is Armstrong number":dup+" is not Armstrong number");
 	}
