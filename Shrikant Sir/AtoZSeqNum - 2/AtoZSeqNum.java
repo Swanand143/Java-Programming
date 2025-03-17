@@ -22,10 +22,6 @@ class AtoZSeqNum2
 			value = str.charAt(0)-64;
 			System.out.println(str+" : "+value);
 		}
-		else if (len==2)
-		{
-			value = ((str.charAt(0)-64)*26)+(str.charAt(1)-64);
-			System.out.println(str+" : "+value);
-		}
+		
 	}
 }
