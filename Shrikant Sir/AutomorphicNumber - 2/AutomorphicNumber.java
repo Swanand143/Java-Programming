@@ -17,8 +17,6 @@ class AutomorphicNumber 2
 		{
 			div *=10;
 		}
-		System.out.print(num==((num*num)%div)
-			?"Yes "+num + " is a Automorphic number"
-			:"No "+ num + " is not Automorphic number- ");
+		
 	}
 }
