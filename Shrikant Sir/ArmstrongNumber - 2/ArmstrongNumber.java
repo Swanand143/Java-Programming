@@ -10,6 +10,5 @@ class ArmstrongNumber2
 		int dup =num;
 		
 		
-		System.out.println(dup==sum?dup+" is Armstrong number":dup+" is not Armstrong number");
-	}
+		
 }
