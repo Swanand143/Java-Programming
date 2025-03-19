@@ -4,7 +4,7 @@ class BmiCal
 	public static void main(String [] args)
 	{
 		
-		float bmi = weightToKg / (heightToMeter * heightToMeter);
+		
 		System.out.print("BMI is: ");
 
 
