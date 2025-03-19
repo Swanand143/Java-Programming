@@ -7,11 +7,6 @@ class AutomorphicNumber 2
 		System.out.print("Enter num : ");
 		int num = new Scanner(System.in).nextInt();
 
-		int div = 1;
-		for (int i = num;i>0 ;i/=10 )
-		{
-			div *=10;
-		}
 		
 	}
 }
