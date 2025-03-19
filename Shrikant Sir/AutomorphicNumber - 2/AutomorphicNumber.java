@@ -3,12 +3,7 @@ class AutomorphicNumber 2
 {
 	public static void main(String[] args) 
 	{
-		/*
-			Automorphic number is
-			a number repeat in the square at the the last
-			1)  5 ---> 25 ----> in this 5 is repeating at last
-			2)  25--->625 ----> in this 25 is repeating
-		*/
+		
 		System.out.print("Enter num : ");
 		int num = new Scanner(System.in).nextInt();
 
