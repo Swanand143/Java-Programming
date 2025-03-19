@@ -13,15 +13,5 @@ class AtoZSeqNum2
 
         
         }
-        if (!flag||len>2) 
-		{
-            System.out.println("Enter a valid character (A-Z only or Max 2 letters(AA)).");
-		}
-		else if(len==1)
-		{
-			value = str.charAt(0)-64;
-			System.out.println(str+" : "+value);
-		}
-		
-	}
+        
 }
