@@ -8,13 +8,7 @@ class FascinatingNumber2
 		int num = new Scanner(System.in).nextInt();
 		String numstr = num + ""+num*2+"" +num*3;
 		boolean flag=true;
-		/*
-			fascinating number is the number :-->
-			1) multiply  - with 2
-			2) multiply - with 3
-			3) concatenate original num and other multipications. 
-			check every digit repeated only once and number should contain all digits from 1 to 9.
-		*/
+		
 		for (char i = '1';i<='9' ;i++ )
 		{
 			int cnt = 0;
