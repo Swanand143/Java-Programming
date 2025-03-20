@@ -71,9 +71,7 @@ class EVM2
 			else if(mns>=bjp && mns>=cng && mns>=ss && mns>=aap && mns>=nota){
 				System.out.println("MNS HAS OWN THE ELECTION BY "+ mns+" votes ");
 			}
-			else if(nota>=bjp && nota>=cng && nota>=ss && nota>=mns && nota>=aap){
-				System.out.println("NOTA HAS OWN THE ELECTION BY "+ nota+" votes ");
-			}
+			
 
 		
 	}
