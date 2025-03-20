@@ -1,0 +1,26 @@
+#Head {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+#maindiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 60px;
+}
+#maindiv > div {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 150px;
+  background: rgb(151, 217, 239);
+  border: 2px solid black;
+}
+#maindiv > div > a {
+  text-decoration: none;
+  font-size: 21px;
+}
