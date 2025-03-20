@@ -1,8 +1,7 @@
 import java.util.Scanner;
 class BouncyNumber2 
 {
-	// bouncy number is number which digits are continiously
-	// increaseor decrease or remains same from left to right
+	
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter a number :");

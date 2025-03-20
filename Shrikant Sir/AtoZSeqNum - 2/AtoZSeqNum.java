@@ -11,27 +11,7 @@ class AtoZSeqNum2
 		int value = 0;
 		boolean flag = true;
 
-        for (int i = 0; i < len; i++) 
-		{
-            if (str.charAt(i) < 'A' || str.charAt(i) > 'Z') 
-			{
-                flag = false;
-                break;
-            }
+        
         }
-        if (!flag||len>2) 
-		{
-            System.out.println("Enter a valid character (A-Z only or Max 2 letters(AA)).");
-		}
-		else if(len==1)
-		{
-			value = str.charAt(0)-64;
-			System.out.println(str+" : "+value);
-		}
-		else if (len==2)
-		{
-			value = ((str.charAt(0)-64)*26)+(str.charAt(1)-64);
-			System.out.println(str+" : "+value);
-		}
-	}
+        
 }

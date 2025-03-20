@@ -15,8 +15,7 @@ class BmiCal
 		final float oneInc = 0.0254f;
 		float heightToMeter = height * oneInc;
 
-		float bmi = weightToKg / (heightToMeter * heightToMeter);
-		System.out.print("BMI is: "+bmi);
+		
 
 
 	}
