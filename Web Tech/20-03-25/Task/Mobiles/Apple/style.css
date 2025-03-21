@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+h1 {
+  background-color: #232f3e;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+.iphone-list {
+  padding: 20px;
+}
+.iphone-list a {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  text-decoration: none;
+  background-color: #ff9900;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.iphone-list a:hover {
+  background-color: #e68a00;
+}

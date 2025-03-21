@@ -1,26 +1,45 @@
-#Head {
-  justify-content: center;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  display: flex;
-  margin-bottom: 30px;
-  margin-top: 40px;
+  background-color: #131921;
+  padding: 10px 20px;
+  color: white;
 }
-#maindiv {
+.nav-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-search {
+  display: flex;
+}
+.nav-search input {
+  padding: 5px;
+  width: 200px;
+}
+.nav-search button {
+  background: #febd69;
+  border: none;
+  padding: 5px 10px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.nav-categories {
+  display: flex;
   justify-content: center;
-  align-items: center;
-  display: flex;
-  gap: 60px;
+  background-color: #232f3e;
+  padding: 10px;
 }
-#maindiv > div {
-  display: flex;
-  justify-content: space-evenly;
+.nav-categories a {
+  color: white;
   text-decoration: none;
-  border-radius: 10px;
-  width: 150px;
-  background: rgb(151, 217, 239);
-  border: 2px solid black;
-}
-#maindiv > div > a {
-  text-decoration: none;
-  font-size: 21px;
+  margin: 0 15px;
+  font-size: 14px;
 }
