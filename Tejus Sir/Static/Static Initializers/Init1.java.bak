@@ -1,8 +1,0 @@
-class Init1 
-{
-	String str = "Qspiders";
-	public static void main(String[] args) 
-	{
-		System.out.println("Hello World!");
-	}
-}
