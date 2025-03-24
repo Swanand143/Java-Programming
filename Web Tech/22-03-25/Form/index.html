@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tags</title>
+  </head>
+  <body>
+    <h1>Input Types</h1>
+    <form action="">
+      text : <input type="text" /><button>submit</button><br /><br />
+      color : <input type="color" /><button>submit</button><br /><br />
+      datetime local : <input type="datetime-local" /><button>submit</button
+      ><br /><br />
+      date : <input type="date" /><button>submit</button><br /><br />
+      email : <input type="email" /><button>submit</button><br /><br />
+      file : <input type="file" /><button>submit</button><br /><br />
+      month : <input type="month" /><button>submit</button><br /><br />
+      number : <input type="number" /><button>submit</button><br /><br />
+      password : <input type="password" /><button>submit</button><br /><br />
+      range :
+      <input type="range" min="0" max="1000" step="100" id="input1" /><button>
+        submit</button
+      ><br /><br />
+      hidden : <input type="hidden" /><button>submit</button><br /><br />
+      search : <input type="search" /><button>submit</button><br /><br />
+      tel : <input type="tel" /><button>submit</button><br /><br />
+      time : <input type="time" /><button>submit</button><br /><br />
+      url : <input type="url" /><button>submit</button><br /><br />
+      week : <input type="week" /><button>submit</button><br /><br />
+      Checkbox : <input type="checkbox" id="a" /><label for="a">HTML</label>
+      <input type="checkbox" id="b" /><label for="b">CSS</label>
+      <input type="checkbox" id="c" /><label for="c">JS</label>
+    </form>
+    <script>
+      let input = document.querySelector("#input1");
+      let span = document.querySelector("span");
+      input.addEventListener("input1", (e) => {
+        console.log(e.target.value);
+        span.innerText = input.value;
+      });
+    </script>
+  </body>
+</html>
