@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkbox & Radio Button</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <!--fieldset Tag Gives The Outer Border To Our Form Like a Boundry-->
+        <legend>Admission Form</legend>
+        <!--legend tag is used to give name to our form like login,signup,admission etc -->
+        <h3>Checkbox</h3>
+        <input type="checkbox" id="Marathi" name="lang" />
+        <label for="Marathi">Marathi</label>
+        <input type="checkbox" id="Hindi" name="lang" />
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" id="English" name="lang" />
+        <label for="English">English</label>
+        <input type="checkbox" id="Hinglish" name="lang" />
+        <label for="Hinglish">Hinglish</label>
+        <button type="submit">Submit</button><br /><br />
+        <!-- when type of button is submit then our webpage will be refresh -->
+
+        <h3>Radio Button</h3>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" />
+        <label for="other">Other</label>
+        <button type="reset">Reset</button><br /><br />
+        <!-- when type of button is reset then our webpage cant be refresh -->
+
+        <h3>Input Field Focused</h3>
+        <label for="x">Write your feedback:-</label>
+        <input type="text" id="x" />
+        <button type="submit">Submit</button>
+        <!-- label and id used for focusing our input field-->
+
+        <h3>Textarea</h3>
+        <textarea rows="3" cols="0">Takes Large Data  Input From User</textarea>
+        <button type="submit">Submit</button>
+        <!-- in cols attribute (1 char = 1 vertical space) and rows will be the (1 row = 1 visible line) -->
+
+        <h3>DropDown List</h3>
+        <select name="" id="">
+          <option value="">Select The CTC</option>
+          <option value="">10 LPA</option>
+          <option value="">15 LPA</option>
+          <option value="">20 LPA</option>
+        </select>
+        <button type="submit">Submit</button><br /><br />
+        <!-- value attribute is used to save the user input and send to backend and this value assigned by the devloper -->
+        <select name="" id="">
+          <option value="">Select Your State</option>
+          <option value="">Maharastra</option>
+          <option value="">Gujrat</option>
+          <option value="">Tamilnadu</option>
+          <option value="">Bihar</option>
+          <option value="">Rajasthan</option>
+          <option value="">Kerala</option>
+          <option value="">Uttar Pradesh</option>
+          <option value="">Madhya Pradesh</option>
+          <option value="">Arunachal Pradesh</option>
+          <option value="">Goa</option>
+        </select>
+        <button type="submit">Submit</button><br /><br />
+        <select name="" id="">
+          <option value="">Select Car</option>
+          <option value="">Mahindra</option>
+          <option value="">TATA</option>
+          <option value="">Range Rover</option>
+          <option value="">BMW</option>
+          <option value="">Rolls Royace</option>
+          <option value="">Mercedies</option>
+          <option value="">MG</option>
+        </select>
+        <button type="submit">Submit</button><br /><br />
+
+        <h3>More attributes</h3>
+        <!--readonly Attribute-->
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          name=""
+          id="name"
+          readonly
+          value="readonly attribute is used"
+        />
+        <!--disabled Attribute-->
+        <button disabled>Disabled Button</button><br /><br />
+        <!--placeholder Attribute-->
+        1:<input type="text" placeholder="Enter Your Name" /><br /><br />
+        <!--Minlength Maxlength Attribute-->
+        2:<input
+          type="text"
+          maxlength="14"
+          minlength="14"
+          value="+91 "
+        /><br /><br />
+        <!--Autofocus attribute after open webpage automatically focus on settelled feilds that set with autofocus-->
+        1.<input type="text" autofocus /><br /><br />
+
+        <!--accesskey attribute to focus the inputfield using shortcut keys like a,b,c just click it (alt + that signed key)-->
+        a.<input type="text" accesskey="a" /><br />
+        b.<input type="text" accesskey="b" /><br />
+        c.<input type="text" accesskey="c" />
+      </fieldset>
+    </form>
+  </body>
+</html>
