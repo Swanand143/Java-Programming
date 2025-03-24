@@ -56,18 +56,7 @@ class EVM2
 				}
 			
 			}
-			if(bjp>=cng && bjp>=ss && bjp>=aap && bjp>=mns && bjp>=nota){
-				System.out.println("BJP HAS OWN THE ELECTION BY "+ bjp+" votes ");
-			}
-			else if(cng>=bjp && cng>=ss && cng>=aap && cng>=mns && cng>=nota){
-				System.out.println("CONGRESS HAS OWN THE ELECTION BY "+ cng+" votes ");
-			}
-			else if(ss>=bjp && ss>=cng && ss>=aap && ss>=mns && ss>=nota){
-				System.out.println("SHIV SENA HAS OWN THE ELECTION BY "+ ss+" votes ");
-			}
-			else if(aap>=bjp && aap>=cng && aap>=ss && aap>=mns && aap>=nota){
-				System.out.println("AAP HAS OWN THE ELECTION BY "+ aap+" votes ");
-			}
+			
 			
 			
 
