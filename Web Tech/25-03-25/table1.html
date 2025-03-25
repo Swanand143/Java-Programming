@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <style>
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <!--Using table Tag we Can Draw a Table On Webpage-->
+    <table border="1" style="border-collapse: collapse">
+      <!--Using tr tag we can add a row to the table-->
+      <tr>
+        <!--Using td tag we can put the data in the row i.e number of td tag == number of columns-->
+        <td>Name</td>
+        <td colspan="2">Phone</td>
+        <!--here colspan=2 attribute is used to merge the two columns in one-->
+        <td>Place</td>
+      </tr>
+      <tr>
+        <td>Ganesh</td>
+        <td>1234567890</td>
+        <td>4567891230</td>
+        <td>Nashik</td>
+      </tr>
+      <tr>
+        <td>Sanket</td>
+        <td>7894561230</td>
+        <td>8527419630</td>
+        <td rowspan="2">A.Nagar</td>
+        <!--here rowspan=2 attribute is used to merge the two rows in one-->
+      </tr>
+      <tr>
+        <td>Chaitya</td>
+        <td>4561237905</td>
+        <td>1478523690</td>
+      </tr>
+      <tr>
+        <td>Harshal</td>
+        <td>2583697410</td>
+        <td>6541237890</td>
+        <td>Chalisgoan</td>
+      </tr>
+    </table>
+  </body>
+</html>
