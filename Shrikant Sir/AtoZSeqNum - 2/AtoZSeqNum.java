@@ -8,8 +8,7 @@ class AtoZSeqNum2
 		System.out.print("Enter Character : ");
 		String str = sc.next().toUpperCase();
 		int len = str.length();
-		int value = 0;
-		boolean flag = true;
+		
 
         
         }
