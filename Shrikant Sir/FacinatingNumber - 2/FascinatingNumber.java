@@ -26,8 +26,6 @@ class FascinatingNumber2
 					break;
 				}
 		}
-		System.out.print(flag?
-			"Yes " + num + " is a fascinating number"
-			:"No"+ num + " is not a fascinating number");
+		
 	}
 }
