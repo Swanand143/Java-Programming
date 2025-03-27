@@ -1,0 +1,80 @@
+class MobileDriver
+{
+	public static void main(String[] args)
+	{
+		Mobile iqoo = new Mobile();
+		System.out.println("Iqoo :"+iqoo);
+		iqoo.brand = "Iqoo";
+		iqoo.model = "Iqoo Z5";
+		iqoo.ram = 12;
+		iqoo.rom = 128;
+		iqoo.noOfCam = 3;
+		iqoo.price = 24500;
+		
+		System.out.println("Brand : "+iqoo.brand);
+		System.out.println("Model : "+iqoo.model);
+		System.out.println("Ram : "+iqoo.ram);
+		System.out.println("Rom : "+iqoo.rom);
+		System.out.println("No. of Camera : "+iqoo.noOfCam);
+		System.out.println("Price : "+iqoo.price);
+		System.out.println("---------------------");
+		//
+		Mobile apple = new Mobile();
+		System.out.println("Apple :"+apple);
+		apple.brand = "Apple";
+		apple.model = "I phone 16 Pro Max";
+		apple.ram = 16;
+		apple.rom = 512;
+		apple.noOfCam = 3;
+		apple.price = 145000;
+		
+		System.out.println("Brand : "+apple.brand);
+		System.out.println("Model : "+apple.model);
+		System.out.println("Ram : "+apple.ram);
+		System.out.println("Rom : "+apple.rom);
+		System.out.println("No. of Camera : "+apple.noOfCam);
+		System.out.println("Price : "+apple.price);
+		System.out.println("---------------------");
+		//
+		Mobile samsung = new Mobile();
+		System.out.println("Samsung :"+samsung);
+		samsung.brand = "Samsung";
+		samsung.model = "Galaxy S25";
+		samsung.ram = 16;
+		samsung.rom = 256;
+		samsung.noOfCam = 3;
+		samsung.price = 70000;
+		
+		System.out.println("Brand : "+samsung.brand);
+		System.out.println("Model : "+samsung.model);
+		System.out.println("Ram : "+samsung.ram);
+		System.out.println("Rom : "+samsung.rom);
+		System.out.println("No. of Camera : "+samsung.noOfCam);
+		System.out.println("Price : "+samsung.price);
+		System.out.println("---------------------");
+		//
+		Mobile vivo = new Mobile();
+		System.out.println("Vivo :"+vivo);
+		vivo.brand = "Vivo";
+		vivo.model = "X100";
+		vivo.ram = 8;
+		vivo.rom = 128;
+		vivo.noOfCam = 4;
+		vivo.price = 85000;
+		
+		System.out.println("Brand : "+vivo.brand);
+		System.out.println("Model : "+vivo.model);
+		System.out.println("Ram : "+vivo.ram);
+		System.out.println("Rom : "+vivo.rom);
+		System.out.println("No. of Camera : "+vivo.noOfCam);
+		System.out.println("Price : "+vivo.price);
+		System.out.println("---------------------");
+		
+		
+		
+		
+		
+		
+		
+	}
+}
