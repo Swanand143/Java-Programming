@@ -6,6 +6,8 @@ class AutomorphicNumber 2
 		
 		System.out.print("Enter num : ");
 		int num = new Scanner(System.in).nextInt();
+		System.out.print("Enter num : ");
+		int num = new Scanner(System.in).nextInt();
 
 		
 	}
