@@ -8,6 +8,7 @@ class AtoZSeqNum2
 		System.out.print("Enter Character : ");
 		String str = sc.next().toUpperCase();
 		int len = str.length();
+		System.out.println("\n<--- Print A to Z Sequence Number --->\n");
 		
 
         
