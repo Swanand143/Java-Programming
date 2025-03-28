@@ -1,0 +1,20 @@
+class ACDriver 
+{
+	public static void main(String[] args) 
+	{
+		AC a1 = new AC();
+		
+		a1.brand = "Blue Star";
+		a1.price = 15000.0;
+		a1.ton = 1;
+		a1.minTemp = 10.0;
+		a1.maxTemp = 30.0;
+		a1.ambTemp = 14.0;
+		
+		a1.displayDetails();
+		a1.miniTemp();
+		a1.maxiTemp();
+		a1.ambiTemp();
+		
+	}
+}
