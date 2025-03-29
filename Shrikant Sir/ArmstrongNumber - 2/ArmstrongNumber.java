@@ -8,6 +8,7 @@ class ArmstrongNumber2
 		int num = sc.nextInt();
 		int len=0,sum=0;
 		int dup =num;
+		int len=0,sum=0;
 		
 		
 		
