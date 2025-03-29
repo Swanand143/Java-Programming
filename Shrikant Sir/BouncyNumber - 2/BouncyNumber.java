@@ -32,5 +32,6 @@ class BouncyNumber2
 			rem1 = rem;
 		}
 		System.out.print(flaginc && flagdec ?num+ " is a not a Bouncy number ": num + " is a Bouncy Number ");
+		System.out.print(flaginc && flagdec ?num+ " is a not a Bouncy number ": num + " is a Bouncy Number ");
 	}
 }
