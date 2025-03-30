@@ -5,6 +5,7 @@ class FascinatingNumber2
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter Number : ");
+		System.out.print("Enter Number : ");
 		int num = new Scanner(System.in).nextInt();
 		String numstr = num + ""+num*2+"" +num*3;
 		boolean flag=true;
