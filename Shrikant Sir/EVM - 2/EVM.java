@@ -63,6 +63,10 @@ class EVM2
 					i--;
 					System.out.println("INVALID OPTION");
 				}
+			if(!(opt>=1 && opt<=6)){
+					i--;
+					System.out.println("INVALID OPTION");
+			}
 			}
 			
 			
