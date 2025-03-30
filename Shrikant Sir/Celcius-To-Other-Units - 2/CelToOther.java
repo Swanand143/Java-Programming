@@ -44,6 +44,7 @@ class CelToOther2
 		}
 		default:{
 			System.out.println("Choose Valid Option");
+			System.out.println("Choose Valid Option");
 		}
 		
 		}
