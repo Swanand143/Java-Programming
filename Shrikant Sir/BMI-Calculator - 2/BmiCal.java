@@ -14,6 +14,8 @@ class BmiCal
 
 		final float oneInc = 0.0254f;
 		float heightToMeter = height * oneInc;
+		final float oneInc = 0.0254f;
+		float heightToMeter = height * oneInc;
 
 		
 
