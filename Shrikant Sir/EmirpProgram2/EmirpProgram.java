@@ -50,7 +50,8 @@ class EmirpProgram2
 			else
 			{
 				System.out.println(dup+" is not a prime number");
-			}	
+			}
+			System.out.println(dup+" is not a prime number");
 		}
 	}
 }
