@@ -1,0 +1,17 @@
+/* Universal Selctor */
+*{
+    color: red;
+}
+/* class Selector */
+.class1{
+    background: orange;
+}
+
+/* ID Selector */
+#id{
+    background: green;
+}
+/* Grouping Selector */
+.a, #b, div{
+    background: blue;
+}

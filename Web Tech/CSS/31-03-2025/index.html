@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Property</title>
+
+    <!-- ################################################################# -->
+     
+    <!-- Internal CSS -->
+     <!-- <style>
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+        }
+     </style> -->
+
+    <!-- ################################################################# -->
+
+    <!-- External CSS Linking -->
+     <link rel="stylesheet" href="style.css">
+
+    <!-- ################################################################# -->
+</head>
+<body>
+    <!-- 3 Types of CSS
+     1. Inline CSS
+     2. Internal CSS
+     3. External CSS -->
+
+    <!-- ################################################################# -->
+
+    <!-- 1. Inline CSS -->
+    <!--Property is consiste of Key and Value Pair -->
+    <!-- <div style="width: 300px; height: 300px;background: red;"></div> -->
+    <!-- Here Width is Key and 300px is value  -->
+
+    <!-- ################################################################# -->
+
+    <!-- Using Inernal CSS -->
+    <!-- <div></div> -->
+
+    <!-- ################################################################# -->
+
+    <!-- Using External CSS -->
+    <div></div>
+
+    <!-- ################################################################# -->
+
+     
+
+</body>
+</html>
+    <!--NOTES:
+    1. In Html will not give you any errors.
+    2. If we Not Write any tag in Code even we get an O/P
+    3. W3C is takes care of HTML
+    4. We can check Html Code is Right or not on W3C
+    5. Don't Use the Block Level Elements inside Inline Element.
+    6. We can Write Whole CSS inside one Style Attribute that we written in any html element.
+    7. Link External CSS using link Tag.
+    8. We reccommand to use the External CSS bcz To make Code readable, easy to understand, Easy Code fixing.
+    9. Why we not use inline css ==> It becomes more complex in one file.
+    10. Why we Not uSe then Internal CSS==> We not achiveing the code spliting and increase the number of line of code in only one file.
+    
+    11. What is CASCADING ==> it is Priority.
+    12. if we write an inline css, Internal css and External css for only one element so inline css apply bcz it has highest priority.
+    13. If we write an Internal and external css for same element so it is depent on how you are write it.
+        While Running the Line by line Execution of code so if we write an link tag 1st then below that if we write an internal css using style tag so it apply internal css.
+    14. But the While 3 types of CSS the high priority is for inline
+        but while only in Internal and External so it apply priority as line by line execution that means both are executes but the last one applied.
+    
+        #### Tyes of Selectors ####
+        Simple Selectors ====> tag name, class, ID, Grouping selector, Universal Selector
+    15. id ==> for targeting the unic element
+        CLass==> for selecting multiple tags to give same class name
+    
+    16. When we use id for multiple ele so it works why===> 
+    17. We can't Repeat the ID 
+    18. Grouping selector == > for apply the multiple element using commas
+        Ex: .a, #b, div{
+         Property...
+        }
+    19. Universal Selector ==> * Apply on all Body
+        Ex: *{
+            Property
+        }
+    20. ID 1st having Highest Priority in selectors if using id, class , groping and universal
+    21. Class has 2nd priority if not having id but having class , groping and universal
+    22. 3rd priority is for Tag selector
+    23. 4th Priority is for Universal selector.
+    24. ! important selector has highest highest Priority Bapp of all Inline Se Bhi Upar.
+        EX:
+        use this in any selector ex:
+        .class{
+            color: red !important.
+        } so it apply 1st that have highest priority
+
+    25. Final Priority for CSS Selectors:
+        !important > Inline > ID > class > tagName > universal
+    -->
