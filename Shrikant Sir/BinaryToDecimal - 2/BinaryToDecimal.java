@@ -8,6 +8,7 @@ class BinaryToDecimal2
 		String bin = new Scanner(System.in).next();         //"101010111";
 		int num = Integer.parseInt(bin,2);
 		System.out.print(num);
+		System.out.print(num)
 
 	}
 }

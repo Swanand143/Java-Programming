@@ -23,5 +23,7 @@ class EvilNumber2
 		}
 		else
 			System.out.print(num +" is not a Evil number ");
+		System.out.print(num +" is not a Evil number ");
+	}
 	}
 }
