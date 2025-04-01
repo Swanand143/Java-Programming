@@ -1,0 +1,27 @@
+class Shoe
+{
+	String brand = "Reebok" ;
+	double price ;
+	int size ;
+	String color ;
+	
+	{//non-static block
+		System.out.println("Object Overloading");
+		if (brand.charAt(0)=='N')
+		{
+			price = 1000.0;
+		}
+		else
+		{
+			price = 500.0;
+		}
+	}
+	
+	public void displayShoe()
+	{
+		System.out.println(brand);
+		System.out.println(price);
+		System.out.println(size);
+		System.out.println(color);
+	}
+}
