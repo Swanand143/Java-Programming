@@ -39,3 +39,84 @@
      ii) Adjecent Sibling Selectors
     iii) Child Selectors Selectors
      iv) Descendant Selectors  -->
+<!-- NOTES:
+1. Hackon Vion Lei introduced CSS 
+
+2. 2. Combinator Selectors 
+      i) Genaral sibling Selectors
+      ii) Adjecent sibling Selectors
+      iii) Child Selectors
+      iv) Descendant Selector
+      
+3. Siblings Means on Same Level element
+    i)  Genaral sibling Selectors
+    Ex:
+       <div>
+        <h1></h1>
+       </div>
+        <p></p>
+        <h2></h2>
+        here the div, p,h2 is a Genaral sibling Selectors
+
+        CSS EX:
+        div ~ h2{   that means these are siblings but not adjecent so use this sign ~ i.e these are siblings but not adjecent
+        }
+
+        that means the h2 is targeted
+
+4. ii) Adjecent Siblings means one after another
+       Ex: 
+        <p></p>
+        <h2></h2>
+        <h3></h3>
+
+        here the p,and h2 only are Adjecent sibling Selectors OR h2 and h3 are the .
+
+        CSS EX:
+
+        i.e p + h2{   they are side by side means adjecent   means h2 is targeted only
+        }
+
+        OR   
+
+        h2 + h3{  that means h3 is targeted only
+        }
+
+5. In gendral Sibling selectors and Adjecent Sibling Selectors the last one sibling is targeted
+    Ex:
+    h2 + h3{
+    Only h3 is Targeted
+    }
+
+    h3+p~div{
+    here only div is targeted
+    }
+
+6. iii) Child Selector
+    that means the only 1st generation child 
+    div
+       h1
+       h2
+       h3
+    section
+    h1
+
+    here the div > h1{
+          here the h1 is a strickly 1st gen child so it is targeted
+    } 
+
+7. iv) Decendant Selector
+  koi bhi ane wale generation se child chal jayega
+    div
+       h1
+       h2
+       h3
+       h3
+       h3
+    section
+    h1
+
+    here the div h3{
+        here the all h3 is targeted bcz they are all the decendant of div
+    }
+-->
