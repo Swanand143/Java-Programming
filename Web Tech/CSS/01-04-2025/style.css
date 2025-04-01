@@ -1,0 +1,15 @@
+/* i) General Sibling Selectors */
+div + div {
+  background-color: red;
+}
+/* ii) Adjecent Sibling Selectors */
+h3 ~ h4 {
+  background-color: blue;
+}
+/* iii) Child Selectors Selectors & iv) Descendant Selectors */
+div > div > section + p {
+  background-color: aqua;
+}
+div > div p {
+  background-color: yellow;
+}

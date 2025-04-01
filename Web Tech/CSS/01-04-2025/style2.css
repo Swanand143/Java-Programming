@@ -1,0 +1,40 @@
+/* 1.Fisrt Letter */
+p::first-letter {
+  font-size: 50px;
+}
+/* 2.First Line */
+div::first-line {
+  background-color: yellow;
+}
+/* 3.Selection */
+h5::selection {
+  background: red;
+  color: white;
+}
+/* 4.Before & 5.After */
+h6::before {
+  content: "Before";
+  font-size: 20px;
+  background-color: blueviolet;
+}
+h6::after {
+  content: "After";
+  font-size: 20px;
+  background-color: blueviolet;
+}
+/* 6.Marker */
+#list1::marker {
+  content: "🍎";
+}
+#list2::marker {
+  content: "🍉";
+}
+#list3::marker {
+  content: "🥭";
+}
+#list4::marker {
+  content: "🍌";
+}
+#list5::marker {
+  content: "🍇";
+}

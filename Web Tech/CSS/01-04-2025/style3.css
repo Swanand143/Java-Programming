@@ -1,0 +1,16 @@
+div {
+  background-color: yellow;
+}
+div:hover {
+  background-color: aqua;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: green;
+}
