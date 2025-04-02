@@ -1,0 +1,66 @@
+ul ul li {
+  color: red;
+}
+
+li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+p:nth-child(even) {
+  color: blue;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+div > p {
+  color: green;
+}
+
+.text.important {
+  font-size: 20px;
+  color: red;
+}
+
+#unique.special {
+  background-color: yellow;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: orange;
+}
+a:active {
+  color: red;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+tr:nth-child(even) {
+  background-color: lightpink;
+}
+
+input[type="password"] {
+  background-color: rgb(168, 168, 19);
+}
+
+#box p {
+  font-style: italic;
+}
+
+input:checked {
+  accent-color: red;
+  outline: 2px solid blue;
+}
