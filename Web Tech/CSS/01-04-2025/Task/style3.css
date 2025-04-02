@@ -1,0 +1,29 @@
+p::first-letter {
+  font-size: 35px;
+}
+div::first-line {
+  background-color: yellow;
+}
+h4::after {
+  content: " After";
+  font-size: 20px;
+  background-color: fuchsia;
+}
+h5::before {
+  content: "Before ";
+  font-size: 20px;
+  background-color: grey;
+}
+#list1::marker {
+  content: "🍎";
+}
+#list2::marker {
+  content: "🍉";
+}
+span::selection {
+  background: red;
+  color: white;
+}
+.container > span {
+  color: green;
+}
