@@ -1,0 +1,13 @@
+div p {
+  background-color: blueviolet;
+  color: black;
+}
+p > span {
+  background-color: magenta;
+}
+h1 + p {
+  background-color: green;
+}
+h2 ~ p {
+  background-color: navajowhite;
+}
