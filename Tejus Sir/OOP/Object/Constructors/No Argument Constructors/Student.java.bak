@@ -1,0 +1,14 @@
+class Student
+{
+	String name ;
+	int age ;
+	String coll ;
+	String degree;
+	int roll ;
+	
+	Student()//no args constructor declared by programmer
+	{
+		System.out.println("From no args constructor");
+		System.out.println(this);//print current object refernce
+	}
+}
