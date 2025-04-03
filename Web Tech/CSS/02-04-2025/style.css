@@ -1,0 +1,29 @@
+input:focus {
+  background: rgb(241, 192, 102);
+  border: none;
+  outline: none;
+  color: black(255, 255, 255, 0.397);
+}
+button:hover {
+  background-color: rgb(127, 213, 234);
+  border-radius: 50%;
+}
+section:hover {
+  background-color: rgb(188, 178, 251);
+}
+p {
+  width: 250px;
+  background-color: rgb(165, 165, 165);
+  padding: 10px;
+  font-size: 10px;
+  display: none;
+}
+button:hover + p {
+  display: block;
+}
+input:required {
+  background-color: aqua;
+}
+div:first-child {
+  background-color: red;
+}

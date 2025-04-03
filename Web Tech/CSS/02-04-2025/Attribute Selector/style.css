@@ -1,0 +1,18 @@
+[title="this para3"] {
+  background: green;
+}
+[title^="this para1"] {
+  background: red;
+}
+[title="this para2"] {
+  background: blue;
+}
+/* [title$="3"] {
+  background: orange;
+} */
+[title="this-para-4"] {
+  background: magenta;
+}
+/* [title*="i"] {
+  background: firebrick;
+} */
