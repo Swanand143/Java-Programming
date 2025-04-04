@@ -7,8 +7,7 @@ class ArmstrongNumber2
         System.out.print("Enter a number : ");
 		int num = sc.nextInt();
 		int len=0,sum=0;
-		int dup =num;
-		int len=0,sum=0;
+		
 		
 		
 		
