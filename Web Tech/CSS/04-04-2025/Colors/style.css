@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+/* Simple colors call with there names */
+#div1 {
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 4px solid;
+  margin-right: 15px;
+  background-color: aqua;
+}
+/* RGB colors */
+#div2 {
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 4px solid;
+  margin-right: 15px;
+  background-color: rgb(112, 61, 10, 0.7);
+}
+/* Hexadecimal colors */
+#div3 {
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  display: flex;
+  border: 4px solid;
+  background-color: #b6349a;
+}
+/* HSL colors */
+#div4 {
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  display: flex;
+  border: 4px solid;
+  background-color: hsl(0deg, 100%, 50%, 0.8);
+}
