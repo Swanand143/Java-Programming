@@ -1,0 +1,16 @@
+class StudentDriver 
+{
+	public static void main(String[] args) 
+	{
+		Student s1 = new Student("Raju",21,"FC College","BE",345);//parameterized constructor
+		s1.displayStudent();
+		System.out.println("------------");
+		
+		Student s2 = new Student();//no args constructor
+		s2.displayStudent();
+		System.out.println("------------");
+		
+		Student s3 = new Student("Mahesh",22,"SVIT","BE",100);//parameterized constructor
+		s3.displayStudent();
+	}
+}
