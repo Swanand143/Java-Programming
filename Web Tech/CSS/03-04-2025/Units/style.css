@@ -1,14 +1,43 @@
-* {
-  margin: 0;
-  padding: 0;
+/* px is a absolute unit so it nnot change it is fixed */
+.div1{
+  background-color: orange;
+  height: 50px;
+  width: 500px;
 }
-#div1 {
-  width: 45.4cm;
-  height: 7cm;
-  background-color: magenta;
+
+/* % is a relative unit so it can be change according to viewport i.e it is a responsive*/
+/* NOTE: it need he height for the parent ele */
+.div2{
+  background-color: orange;
+  height: 50%;
+  width: 90%;
 }
-#div2 {
-  width: 30vw;
-  height: 50vh;
-  background-color: tomato;
+
+/* vw viewport width*/
+.div3{
+  background-color: orange;
+  height: 20vw;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  background-color: red;
+  width: 10vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+/* em (element)for font size , it takes rem from parent ele*/
+.div4{
+  font-size: 2em;
+}
+
+/* rem (rot element) for font size, it takes ref from root ele*/
+.div5{
+  font-size: 2rem;
 }
