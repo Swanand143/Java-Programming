@@ -1,0 +1,11 @@
+class ShoeDriver 
+{
+	public static void main(String[] args) 
+	{
+		Shoe s1= new Shoe();//No-args Constructor
+		s1.displayShoe();
+		System.out.println("------------------");
+		Shoe s2 = new Shoe(3500.0,10,"Sports","Blue");//Parameterized Constructor
+		s2.displayShoe();
+	}
+}
