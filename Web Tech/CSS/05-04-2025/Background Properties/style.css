@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bg1 div {
+  width: 40vw;
+  height: 40vh;
+  background-image: url(./Assetes/img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg2 div {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  background-image: linear-gradient(to top right, red, yellow);
+}
+
+.bg3 div {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  background-image: radial-gradient(red, blue);
+}
+.bg4 div {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    red,
+    yellow,
+    green,
+    aqua,
+    blue,
+    rgb(203, 71, 176),
+    red
+  );
+}
+.bg5 div {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  background-image: repeating-linear-gradient(red 5%, yellow 10%);
+}
+.bg6 div {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  background-image: repeating-radial-gradient(black 4%, white 8%);
+}
+.bg7 div {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  background-color: darkcyan;
+}
