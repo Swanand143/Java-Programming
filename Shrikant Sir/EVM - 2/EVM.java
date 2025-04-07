@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class EVM2
+class EVM
 {
 	public static void main(String[] args)
 	{
@@ -54,23 +54,26 @@ class EVM2
 					i--;
 					System.out.println("INVALID OPTION");
 				}
-				if(!(opt>=1 && opt<=6)){
-					i--;
-					System.out.println("INVALID OPTION");
-				}
-
-				if(!(opt>=1 && opt<=6)){
-					i--;
-					System.out.println("INVALID OPTION");
-				}
-			if(!(opt>=1 && opt<=6)){
-					i--;
-					System.out.println("INVALID OPTION");
+			
 			}
+			if(bjp>=cng && bjp>=ss && bjp>=aap && bjp>=mns && bjp>=nota){
+				System.out.println("BJP HAS OWN THE ELECTION BY "+ bjp+" votes ");
 			}
-			
-			
-			
+			else if(cng>=bjp && cng>=ss && cng>=aap && cng>=mns && cng>=nota){
+				System.out.println("CONGRESS HAS OWN THE ELECTION BY "+ cng+" votes ");
+			}
+			else if(ss>=bjp && ss>=cng && ss>=aap && ss>=mns && ss>=nota){
+				System.out.println("SHIV SENA HAS OWN THE ELECTION BY "+ ss+" votes ");
+			}
+			else if(aap>=bjp && aap>=cng && aap>=ss && aap>=mns && aap>=nota){
+				System.out.println("AAP HAS OWN THE ELECTION BY "+ aap+" votes ");
+			}
+			else if(mns>=bjp && mns>=cng && mns>=ss && mns>=aap && mns>=nota){
+				System.out.println("MNS HAS OWN THE ELECTION BY "+ mns+" votes ");
+			}
+			else if(nota>=bjp && nota>=cng && nota>=ss && nota>=mns && nota>=aap){
+				System.out.println("NOTA HAS OWN THE ELECTION BY "+ nota+" votes ");
+			}
 
 		
 	}
