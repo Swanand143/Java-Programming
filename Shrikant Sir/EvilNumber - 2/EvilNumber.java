@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class EvilNumber2
+class EvilNumber
 {
 	// Evil number is number contains even number of 1's in binary
 	public static void main(String[] args) 
@@ -23,7 +23,5 @@ class EvilNumber2
 		}
 		else
 			System.out.print(num +" is not a Evil number ");
-		System.out.print(num +" is not a Evil number ");
-	}
 	}
 }
