@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+nav{
+  height: 7vh;
+  background: orange;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 15%;
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .logo ko chorke jo bacha he vo div select karo */
+div:not(.logo){
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 85%;
+}
+
+/* ------------------------------------------------ */
+/* Corosal Effect means to apply scroll bar */
+/* Horizontally Scrolling */
+.horizontally{
+  width: 500px;
+  height: 150px;
+  background: lightcoral;
+  display: flex;
+  overflow: auto; /*Corosal Effect*/
+}
+
+.horizontally > div{
+  background: lightgreen;
+  min-width: 100%;
+  height: 80%;
+  border: 2px solid;
+}
+
+/* Vertically Corosal Effect */
+.vertically{
+  width: 500px;
+  height: 150px;
+  background: lightcoral;
+  display: flex;
+  overflow: auto; /*Corosal Effect*/flex-direction: column;
+
+}
+
+.vertically > div{
+  background: lightgreen;
+  min-width: 100%;
+  min-height: 80%;
+  border: 2px solid;
+}
+
+
+/* ---------------------------------------------------- */
+/* Flex Wrap comes inside the parent remaining child comes stats from new line */
+.flexWrap{
+  width: 500px;
+  height: 150px;
+  background: lightcoral;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: auto;
+}
+
+.flexWrap > div{
+  margin: 5px;
+  background: lightgreen;
+  width: 15%;
+  height: 40%;
+  border: 2px solid;
+}
+
+/* ------------------------------------------------- */
