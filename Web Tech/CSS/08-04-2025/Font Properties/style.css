@@ -1,0 +1,42 @@
+/* Font Properties */
+.fontproperties {
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+/* text shadow */
+.shadow {
+  color: orangered;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 7em;
+  text-shadow: 5px 5px 5px black;
+}
+
+/* text-indent: */
+/* Now we get the para in before the starting the para */
+.indent {
+  text-indent: 60px;
+}
+
+/* THis is a Shorthand Property */
+.decoration {
+  text-decoration: underline red wavy 2px;
+}
+
+/* individual properties of text-decoration are follows */
+.decorationIndividual {
+  text-decoration-line: underline; /*This property is mandatory to use the below all properties*/
+  text-decoration-color: blue;
+  text-decoration-thickness: 3px;
+  text-decoration-style: wavy;
+}
+
+/* text-wrap */
+.wrap {
+  /* text-wrap:wrap */
+  text-wrap: nowrap; /*the pragraph goes outside the page and horizontal scroll bar comes*/
+}
