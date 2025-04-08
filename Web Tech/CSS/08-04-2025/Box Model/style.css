@@ -1,0 +1,15 @@
+body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 4em;
+}
+div {
+  background-color: coral;
+  border: 20px solid;
+  /* margin: 20px; */
+  padding: 50px;
+  box-sizing: border-box;
+}
+.div1 {
+}
