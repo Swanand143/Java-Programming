@@ -1,0 +1,29 @@
+#p1 {
+  font-size: 4em;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  color: darkblue;
+  text-shadow: 5px 5px 5px lightslategray;
+}
+#p2 {
+  text-indent: 80px;
+}
+#p3 {
+  font-size: 4em;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  /* text-decoration: underline double 2px red; */
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-style: dashed;
+  text-decoration-color: red;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#p4 {
+  text-wrap: nowrap;
+}
