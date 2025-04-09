@@ -1,0 +1,15 @@
+package Encapsulation;
+
+public class BankDriver {
+	
+	public static void main(String[] args) {
+		BankApp b1 = new BankApp("Rohit", "SBI",12345678l, 1234, "SBINO22") ;
+		b1.credit(12345678l, 1234, 5000);
+		System.out.println(b1.getBalance(12345678l, 1234));
+		b1.debit(12345678l, 1234, 1000);
+		
+		b1.setPin(12345678l, 1234, 2468);
+		System.out.println(b1.getBalance(12345678l, 2468));
+	}
+
+}
