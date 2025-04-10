@@ -1,0 +1,37 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div1 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-width: 10px 20px 10px 20px;
+  /* border-top-width: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px; */
+  border-style: groove;
+  border-color: black;
+}
+#div2 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background: wheat;
+  border-top: 15px solid red;
+  border-left: 15px solid green;
+  border-right: 15px solid blue;
+  border-bottom: 15px solid yellow;
+}
+#div3 {
+  margin: 20px;
+  width: 200px;
+  border: solid;
+  height: 200px;
+  background: lightskyblue;
+  /* border-radius: 50%; */
+  border-radius: 0 50% 50%;
+  transform: rotate(45deg);
+}
