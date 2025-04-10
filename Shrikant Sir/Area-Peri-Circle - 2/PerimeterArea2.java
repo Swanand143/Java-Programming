@@ -11,8 +11,6 @@ class PerimeterArea
 		float area = pi *(radius*radius);
 		System.out.println("Area of circle is : "+area+"cm^2") ;
 
-		float Perimeter = 2* pi *radius;
-		System.out.println("Perimeter of circle is : "+Perimeter+"cm");
 
 
 	}
