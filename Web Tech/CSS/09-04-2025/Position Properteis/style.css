@@ -1,0 +1,13 @@
+#div1 {
+  width: 100px;
+  height: 100px;
+  /* background: red; */
+  position: fixed;
+  top: 1px;
+  right: 50px;
+}
+#div2 {
+  font-size: 100px;
+  position: sticky;
+  top: 0px;
+}
