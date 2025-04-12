@@ -14,6 +14,6 @@ class BuzzNumber
 			System.out.print(num + " is a Buzz Number ");
 		}
 		else 
-				System.out.print(num + " is not a Buzz Number ");
+				 + " is not a Buzz Number ");
 	}
 }
