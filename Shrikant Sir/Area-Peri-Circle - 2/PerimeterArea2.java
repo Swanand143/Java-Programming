@@ -12,8 +12,7 @@ class PerimeterArea
 		System.out.println("Area of circle is : "+area+"cm^2") ;
 
 		
-		System.out.println("Perimeter of circle is : "+Perimeter+"cm");
-
+		
 
 	}
 }
