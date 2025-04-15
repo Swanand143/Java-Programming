@@ -29,6 +29,6 @@ class LoanCal
 		System.out.println("Interest : "+totalInter);
 		float outStanding = amount+totalInter;
 		System.out.println("Total Outstanding Amount : "+ (outStanding));
-		System.out.println("Emi : "+ (outStanding/months)+" Rs");
+		
 	}
 }
