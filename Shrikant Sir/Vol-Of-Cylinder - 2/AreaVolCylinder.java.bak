@@ -13,8 +13,7 @@ class AreaVolCylinder
 		float area = 22/7f*radius*radius;
 		System.out.print("Area of cylinder is: "+area+"cm^2");
 
-		float volume = area*height;
-		System.out.print("Volume of cylinder is: "+volume+"cm^3");
+		
 
 
 
