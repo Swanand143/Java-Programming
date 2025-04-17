@@ -6,14 +6,5 @@ class AreaVolCylinder
 		Scanner yz = new Scanner(System.in);
 		System.out.print("Enter radius (cm): ");
 		float radius = yz.nextFloat();
-
-		System.out.print("Enter height (cm): ");
-		float height = yz.nextFloat();
-
-		
-		
-
-
-
 	}
 }
