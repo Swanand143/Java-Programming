@@ -12,9 +12,5 @@ class TipCalculation
 
 		float  tipAmount = (tiprate*bill)/100;
 		float totalBill = bill + tipAmount;
-		System.out.println("Total bill is: "+totalBill);
-		
-
-
 	}
 }
