@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class PassOrFail
+{
+	public static void main(String[] args)
+	{
+		System.out.print("Enter Marks: ");
+		int marks = new Scanner(System.in).nextInt();
+		float percentage = (marks/600f)*100f;
+		System.out.println("Percentage is: "+percentage+"%");
+		String ans =(percentage>=35 && percentage<=100)?("Student Is Pass"):("Student Is Fail");
+		System.out.println(ans);
+	}
+}
