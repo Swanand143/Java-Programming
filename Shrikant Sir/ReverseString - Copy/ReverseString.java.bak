@@ -13,7 +13,7 @@ class ReverseString
 			char ch = str.charAt(i);
 			revString = ch + revString;
 		}
-		System.out.println("Reverse String is "+revString);
+		
 
 	}
 }
