@@ -6,7 +6,8 @@ class ReverseString
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the string : ");
 		String str = sc.next().toUpperCase();
-		int len = str.length();
+
+
 		
 
 	}
