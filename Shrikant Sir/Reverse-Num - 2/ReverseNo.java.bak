@@ -14,7 +14,7 @@ class ReverseNo
 		rev = rev* 10 + rem; // 3* 10+2 = 32(rev)
 
 		
-		rem = num%10; // 1%10 = 1 (rem)
+
 		 
 		
 		
