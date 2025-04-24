@@ -11,7 +11,7 @@ class ReverseNo
 
 		num = num/10; // 123/10 = 12(rem)
 		rem = num%10; // 12%10 = 2(rem)21-01-2025
-		rev = rev* 10 + rem; // 3* 10+2 = 32(rev)
+
 
 		
 
