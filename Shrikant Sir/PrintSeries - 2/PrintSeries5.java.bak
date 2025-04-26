@@ -20,7 +20,7 @@ class PrintSeries5
 			{
 			   
 			}*/
-			System.out.print(sum+" ");
+			
 		}
 	}
 }
