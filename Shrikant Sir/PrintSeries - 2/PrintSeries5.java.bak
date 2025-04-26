@@ -16,10 +16,7 @@ class PrintSeries5
 				 fact *= n;
 			   }
 			   sum += fact;
-			/*for (int j=1; j<=i ;j++)
-			{
-			   
-			}*/
+			
 			
 		}
 	}
