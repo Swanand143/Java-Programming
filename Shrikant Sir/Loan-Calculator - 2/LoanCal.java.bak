@@ -27,7 +27,7 @@ class LoanCal
 		float intYear = (amount*roi)/100f;
 		float totalInter = intYear*con;
 		System.out.println("Interest : "+totalInter);
-		float outStanding = amount+totalInter;
+		
 		
 		
 	}
