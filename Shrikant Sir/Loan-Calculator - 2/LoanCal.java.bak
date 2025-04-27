@@ -24,7 +24,6 @@ class LoanCal
 		System.out.println("Rate of Intrest : "+roi+"%");
 		System.out.println("Tenure : "+months+ " months");
 
-		float intYear = (amount*roi)/100f;
-		float totalInter = intYear*con;
+		float intYear = (amount*roi)/1
 	}
 }
