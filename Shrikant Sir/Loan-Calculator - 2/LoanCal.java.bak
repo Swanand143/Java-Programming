@@ -20,8 +20,6 @@ class LoanCal
 
 		System.out.println();
 		System.out.println("LOAN CALCULATION");
-		System.out.println("Princial Amount : "+amount);
-		
 		
 	}
 }
