@@ -19,7 +19,7 @@ class LoanCal
 		float con = Float.parseFloat(str);
 
 		System.out.println();
-		System.out.println("LOAN CALCULATION");
+	
 		
 	}
 }
