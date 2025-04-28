@@ -21,7 +21,7 @@ class LoanCal
 		System.out.println();
 		System.out.println("LOAN CALCULATION");
 		System.out.println("Princial Amount : "+amount);
-		System.out.println("Rate of Intrest : "+roi+"%");
+		
 		
 	}
 }
