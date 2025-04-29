@@ -13,6 +13,5 @@ class ProductOfDigit1
 			num/=10;
 
 		}
-		System.out.println("Product of all digits in number : " + sum);
 	}
 }
