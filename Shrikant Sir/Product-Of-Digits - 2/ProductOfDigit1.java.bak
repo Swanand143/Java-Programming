@@ -9,8 +9,8 @@ class ProductOfDigit1
 		while (num>0)
 		{
 			int rem = num%10;
-			sum *= rem;
-			num/=10;
+
+
 
 		}
 	}
