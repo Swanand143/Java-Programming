@@ -59,9 +59,6 @@ class EVM
 			if(bjp>=cng && bjp>=ss && bjp>=aap && bjp>=mns && bjp>=nota){
 				System.out.println("BJP HAS OWN THE ELECTION BY "+ bjp+" votes ");
 			}
-			else if(cng>=bjp && cng>=ss && cng>=aap && cng>=mns && cng>=nota){
-				System.out.println("CONGRESS HAS OWN THE ELECTION BY "+ cng+" votes ");
-			}
 			
 			
 			
