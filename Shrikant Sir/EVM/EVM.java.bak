@@ -62,9 +62,7 @@ class EVM
 			else if(cng>=bjp && cng>=ss && cng>=aap && cng>=mns && cng>=nota){
 				System.out.println("CONGRESS HAS OWN THE ELECTION BY "+ cng+" votes ");
 			}
-			else if(ss>=bjp && ss>=cng && ss>=aap && ss>=mns && ss>=nota){
-				System.out.println("SHIV SENA HAS OWN THE ELECTION BY "+ ss+" votes ");
-			}
+			
 			
 			
 	}
