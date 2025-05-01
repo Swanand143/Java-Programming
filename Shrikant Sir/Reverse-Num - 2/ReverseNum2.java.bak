@@ -12,7 +12,7 @@ class ReverseNum2
 		{
 			rem = num%10;
 			rev = (rev*10)+rem;
-			num/=10;
+			
 		}
 	
 	}
