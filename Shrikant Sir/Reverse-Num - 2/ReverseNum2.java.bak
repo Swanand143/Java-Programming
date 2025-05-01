@@ -14,6 +14,6 @@ class ReverseNum2
 			rev = (rev*10)+rem;
 			num/=10;
 		}
-		System.out.println("Reverse No : "rev);
+	
 	}
 }
