@@ -7,7 +7,7 @@ class ReverseString
 		System.out.print("Enter the string : ");
 		String str = sc.next().toUpperCase();
 		int len = str.length();
-		String revString = "";
+		
 		
 	}
 }
