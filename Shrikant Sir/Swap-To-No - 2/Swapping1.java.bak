@@ -11,7 +11,7 @@ class Swapping
 
 		int temp =a;
 		a = b;
-		b = temp;
+		
 
 		
 		
