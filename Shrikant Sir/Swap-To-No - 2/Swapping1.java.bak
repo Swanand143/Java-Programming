@@ -14,7 +14,7 @@ class Swapping
 		b = temp;
 
 		System.out.println("After Swapping");
-		System.out.println("a :"+ a);
+		
 	
 
 	}
