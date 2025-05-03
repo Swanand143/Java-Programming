@@ -13,7 +13,7 @@ class Swapping
 		a = b;
 		b = temp;
 
-		System.out.println("After Swapping");
+		
 		
 	
 
