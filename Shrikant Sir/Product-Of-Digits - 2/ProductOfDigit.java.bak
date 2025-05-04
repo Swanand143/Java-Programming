@@ -27,6 +27,5 @@ class ProductOfDigit
 	pro = pro * rem;
 	num = num/10;
 
-	System.out.println("The Product of all digits is: " + pro);
-	}
+	
 }
