@@ -23,7 +23,7 @@ class ProductOfDigit
 	num = num/10;
 
     
-	rem = num%10;
+	
 	
 	
 
