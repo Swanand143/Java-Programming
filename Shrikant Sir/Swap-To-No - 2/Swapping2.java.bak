@@ -14,5 +14,5 @@ class Swapping2
 		a = a - b;
 
 		System.out.println("After Swapping");
-		System.out.println("a :"+ a);
+	
 		
