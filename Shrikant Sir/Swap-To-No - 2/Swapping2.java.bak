@@ -10,6 +10,6 @@ class Swapping2
 		System.out.println("b :"+ b);
 
 		a = a + b;
-		b = a - b;
+
 	
 		
