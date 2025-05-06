@@ -6,7 +6,7 @@ class ProductOfDigit1
 		System.out.print("Enter a Number : ");
 		int  num = new Scanner(System.in).nextInt();
 		int sum = 1;
-		while (num>0)
+	
 		{
 
 
