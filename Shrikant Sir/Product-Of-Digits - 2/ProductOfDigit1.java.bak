@@ -7,10 +7,6 @@ class ProductOfDigit1
 		int  num = new Scanner(System.in).nextInt();
 		int sum = 1;
 	
-		{
-
-
-
-		}
+		
 	}
 }
