@@ -8,7 +8,7 @@ class PassOrFail
 		float percentage = (marks/600f)*100f;
 		System.out.println("Percentage is: "+percentage+"%");
 
-		String ans =("Student Is Fail");
+		String ans 
 		
 	}
 }
