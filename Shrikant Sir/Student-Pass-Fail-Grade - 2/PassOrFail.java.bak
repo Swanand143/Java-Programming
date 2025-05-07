@@ -6,9 +6,6 @@ class PassOrFail
 		System.out.print("Enter Marks: ");
 		int marks = new Scanner(System.in).nextInt();
 		float percentage = (marks/600f)*100f;
-		System.out.println("Percentage is: "+percentage+"%");
-
-		String ans 
 		
 	}
 }
