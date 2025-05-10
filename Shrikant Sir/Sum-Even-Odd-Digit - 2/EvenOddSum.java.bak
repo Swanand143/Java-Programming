@@ -14,7 +14,7 @@ class EvenOddSum
 
 		rem = num%10;
 		temp = (rem%2==00)?(EvenSum = EvenSum + rem):(OddSum = OddSum + rem);
-		num = num/10;
+		
 
 		
 		
