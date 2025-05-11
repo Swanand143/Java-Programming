@@ -13,7 +13,7 @@ class Grade
 		             "Failed";
 			        
 
-		//String ans =(percentage>=35 && percentage<=100)?("Student Is Pass"):("Student Is Fail");
+		 percentage<=100)?("Student Is Pass"):("Student Is Fail");
 		
 	}
 }
