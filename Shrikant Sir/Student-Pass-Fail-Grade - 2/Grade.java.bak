@@ -10,7 +10,7 @@ class Grade
 		String ans = (percentage>=75)?"Grade A":
 			         (percentage>=65)?"Grade B":
 			         (percentage>=35)?"Grade C": 
-		             "Failed";
+		             
 			        
 
 
