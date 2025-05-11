@@ -13,7 +13,7 @@ class Grade
 		             "Failed";
 			        
 
-		 percentage<=100)?("Student Is Pass"):("Student Is Fail");
+	100)?("Student Is Pass"):("Student Is Fail");
 		
 	}
 }
