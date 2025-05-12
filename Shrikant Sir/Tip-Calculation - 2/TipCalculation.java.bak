@@ -11,6 +11,6 @@ class TipCalculation
 		float tiprate = ab.nextFloat();
 
 		float  tipAmount = (tiprate*bill)/100;
-		float totalBil
+	
 	}
 }
