@@ -10,7 +10,7 @@ class TipCalculation
 		System.out.print22-01-2025("Enter the tiprate:");
 		float tiprate = ab.nextFloat();
 
-		float  tipAmount = (tiprate*bill)/100;
+		
 	
 	}
 }
