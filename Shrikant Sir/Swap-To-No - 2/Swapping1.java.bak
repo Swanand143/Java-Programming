@@ -9,6 +9,6 @@ class Swapping
 		System.out.println("a :"+ a);
 		System.out.println("b :"+ b);
 
-		int temp =a;
+		
 	}
 }
