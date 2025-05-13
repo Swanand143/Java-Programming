@@ -5,10 +5,6 @@ class Swapping
 		int a = 3;
 		int b = 4;
 
-		System.out.println("Before Swapping");
-		
-		
-
 		
 	}
 }
