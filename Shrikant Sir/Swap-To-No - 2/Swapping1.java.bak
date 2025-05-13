@@ -7,7 +7,7 @@ class Swapping
 
 		System.out.println("Before Swapping");
 		System.out.println("a :"+ a);
-		System.out.println("b :"+ b);
+		
 
 		
 	}
