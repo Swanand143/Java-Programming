@@ -10,12 +10,5 @@ class Swapping
 		System.out.println("b :"+ b);
 
 		int temp =a;
-		
-		
-
-		
-		
-	
-
 	}
 }
