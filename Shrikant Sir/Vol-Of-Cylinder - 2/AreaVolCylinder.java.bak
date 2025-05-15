@@ -5,6 +5,6 @@ class AreaVolCylinder
 	{
 		Scanner yz = new Scanner(System.in);
 		System.out.print("Enter radius (cm): ");
-		float radius = yz.nextFloat();
+		
 	}
 }
