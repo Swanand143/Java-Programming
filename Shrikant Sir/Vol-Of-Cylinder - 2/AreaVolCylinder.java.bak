@@ -4,7 +4,7 @@ class AreaVolCylinder
 	public static void main (String[] args)
 	{
 		Scanner yz = new Scanner(System.in);
-		System.out.print("Enter radius (cm): ");
+		System.out.print("Enter
 		
 	}
 }
