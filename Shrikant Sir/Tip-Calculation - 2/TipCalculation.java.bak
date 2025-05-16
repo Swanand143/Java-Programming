@@ -5,7 +5,6 @@ class TipCalculation
 	{
 		Scanner ab = new Scanner(System.in);
 		System.out.print("Enter the bill: ");
-		float bill = ab.nex
-		System.out.print22-01-2025(":");
+	
 	}
 }
