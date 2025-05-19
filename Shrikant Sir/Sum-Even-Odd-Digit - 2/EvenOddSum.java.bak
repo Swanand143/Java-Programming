@@ -8,6 +8,6 @@ class EvenOddSum
 		int EvenSum = 0;
 		int OddSum = 0;
 		int temp = 0;
-		int rem = num%10;
+	
 	}
 }
