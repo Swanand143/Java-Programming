@@ -7,7 +7,7 @@ class EvenOddSum
 		int num = new Scanner(System.in).nextInt();
 		int EvenSum = 0;
 		int OddSum = 0;
-		int temp = 0;
+	
 	
 	}
 }
