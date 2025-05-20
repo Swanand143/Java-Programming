@@ -5,7 +5,7 @@ class EvenOddSum
 	{
 		System.out.print("Enter a four digit number: ");
 		int num = new Scanner(System.in).nextInt();
-		int EvenSum = 0;
+		
 	
 	
 	
