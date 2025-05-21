@@ -15,9 +15,7 @@ class ReverseNum3
 			num/=10;
 		}
 		if (rev>Integer.MAX_VALUE||rev<Integer.MIN_VALUE)
-		{
-			System.out.println(0);
-		}
+		
 		
 	}
 }
