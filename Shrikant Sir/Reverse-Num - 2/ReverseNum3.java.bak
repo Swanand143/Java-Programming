@@ -9,12 +9,7 @@ class ReverseNum3
 		
 		long rev = 0;
 		while (num>0||num<0)
-		{
-			int rem = num%10;
-			
-			
-		}
-	
+		
 		
 		
 	}
