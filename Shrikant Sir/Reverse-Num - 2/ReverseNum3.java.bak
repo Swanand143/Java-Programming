@@ -11,7 +11,7 @@ class ReverseNum3
 		while (num>0||num<0)
 		{
 			int rem = num%10;
-			rev = (rev*10)+rem;
+			
 			
 		}
 	
