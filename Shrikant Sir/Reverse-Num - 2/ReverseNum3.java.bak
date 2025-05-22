@@ -8,7 +8,7 @@ class ReverseNum3
 		int num = ab.nextInt();
 		
 		long rev = 0;
-		while (num>0||num<0)
+		
 		
 		
 		
