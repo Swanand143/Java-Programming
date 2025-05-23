@@ -4,7 +4,7 @@ class ReverseNum3
 	public static void main(String[] args)
 	{
 		Scanner ab = new Scanner(System.in);
-		System.out.print("Enter a number : ");
+	
 		
 		
 		
