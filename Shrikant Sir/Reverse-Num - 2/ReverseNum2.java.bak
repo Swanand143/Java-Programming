@@ -5,7 +5,7 @@ class ReverseNum2
 	{
 		Scanner ab = new Scanner(System.in);
 		System.out.print("Enter a number : ");
-		int num = ab.nextInt();
+		
 		
 		
 		
