@@ -10,7 +10,7 @@ class ReverseNo
 		rev = rev* 10 + rem; // 0* 10+3 = 3(rem)
 
 		num = num/10; // 123/10 = 12(rem)
-		rem = num%10; // 12%10 = 2(rem)21-01-2025
+		
 
 
 		
