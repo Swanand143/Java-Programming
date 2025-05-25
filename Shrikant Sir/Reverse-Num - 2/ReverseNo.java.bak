@@ -6,7 +6,7 @@ class ReverseNo
 		int dup = num;
 		int rev = 0;
 
-		int rem = num%10; // 123%10 = 3(rem)
+		
 		
 
 		
