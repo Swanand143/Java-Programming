@@ -4,7 +4,7 @@ class ReverseNo
 	{
 		int num = 123;
 		int dup = num;
-		int rev = 0;
+		
 
 		
 		
