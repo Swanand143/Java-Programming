@@ -19,7 +19,7 @@ class ProductOfDigit
 
     
 	rem = num%10;
-	pro = pro * rem;
+	
 	
 
     
