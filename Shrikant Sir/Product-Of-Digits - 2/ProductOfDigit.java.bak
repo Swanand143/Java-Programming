@@ -10,7 +10,7 @@ class ProductOfDigit
 	
 	int rem = num%10;
 	pro = pro * rem;
-	num = num/10;
+	
 
     
 	
