@@ -8,7 +8,7 @@ class ProductOfDigit
 	int dup = num;
 	int pro ;
 	
-	int rem = num%10;
+	
 	
 	
 
