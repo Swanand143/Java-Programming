@@ -6,7 +6,7 @@ class ProductOfDigit
     System.out.print("Enter Four Digit Number: ");
     int num = new Scanner(System.in).nextInt();
 	int dup = num;
-	int pro ;
+	
 	
 	
 	
