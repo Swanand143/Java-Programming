@@ -2,7 +2,7 @@ class PrintSeries6
 {
 	public static void main (String[] args)
 	{
-		int start = 79;
+		
 		
 	}
 }
