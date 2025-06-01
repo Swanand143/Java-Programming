@@ -15,7 +15,7 @@ class PrintSeries3
 			{
 				pow*=i;
 			}
-			System.out.print((pow+i)+" ");
+			
 		}
 	}
 }
