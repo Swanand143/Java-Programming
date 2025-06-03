@@ -13,7 +13,7 @@ class PrintSeries3
 		for (int i=2; i<range; i++)
 		{
 			int next = n1 + n2;	
-			System.out.print(next+" ");
+			
 			
 		
 		}
