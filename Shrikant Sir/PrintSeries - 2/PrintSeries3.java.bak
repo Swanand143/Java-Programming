@@ -8,7 +8,7 @@ class PrintSeries3
 		System.out.print("Enter a range : ");
 		int range = sc.nextInt();
 		int n1 = 0;
-		int n2 = 1;
+		
 		
 		
 	}
