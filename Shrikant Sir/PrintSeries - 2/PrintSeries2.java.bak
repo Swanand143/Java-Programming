@@ -16,7 +16,7 @@ class PrintSeries2
 			{
 				pow*=2;
 			}
-			System.out.print(pow+num1+" ");
+			
 			
 		}
 	}
