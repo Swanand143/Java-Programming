@@ -13,9 +13,7 @@ class PrintSeries2
 		{
 			int pow = 1;
 			for (int j=1; j<=p; j++)
-			{
-				pow*=2;
-			}
+			
 			
 			
 		}
