@@ -6,7 +6,7 @@ class PrintSeries1
 	{
 		for (int i=1,num=12; i<=10; i++,num++)
 		{
-			int pow = 1;
+
 			
 			
 			
