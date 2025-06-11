@@ -9,9 +9,7 @@ class PrintSeries1
 			int pow = 1;
 			int p = num%2==0?2:3;
 			for (int j=1; j<=p ;j++)
-			{
-				pow*=num;
-			}
+			
 			
 		}	
 	}
