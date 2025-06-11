@@ -12,7 +12,7 @@ class PrintSeries1
 			{
 				pow*=num;
 			}
-			System.out.print(pow+" ");
+			
 		}	
 	}
 }
