@@ -2,8 +2,5 @@
 // 12^2 13^3 14^2 15^3 16^2
 class PrintSeries1
 {
-	public static void main(String[] args)
-	{
-		
-	}
+	
 }
