@@ -7,11 +7,6 @@ class PrintSeries2
 		int num1 = 2;
 		System.out.print(num1+" ");
 		for (int i=2,p=2; i<=5; i++,p*=2)
-		{
-			int pow = 1;
-			
-
-			
-		}
+		
 	}
 }
