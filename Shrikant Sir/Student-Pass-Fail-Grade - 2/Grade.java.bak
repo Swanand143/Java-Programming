@@ -10,10 +10,10 @@ class Grade
 		String ans = (percentage>=75)?"Grade A":
 			         (percentage>=65)?"Grade B":
 			         (percentage>=35)?"Grade C": 
-		             "Failed";
+		             
 			        
 
-		//String ans =(percentage>=35 && percentage<=100)?("Student Is Pass"):("Student Is Fail");
-		System.out.println(ans);
+
+		
 	}
 }

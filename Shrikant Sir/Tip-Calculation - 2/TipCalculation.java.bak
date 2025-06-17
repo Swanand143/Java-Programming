@@ -1,16 +1,2 @@
 import java.util.Scanner;
-class TipCalculation
-{
-	public static void main(String[] args)
-	{
-		Scanner ab = new Scanner(System.in);
-		System.out.print("Enter the bill: ");
-		float bill = ab.nextFloat();
 
-		System.out.print22-01-2025("Enter the tiprate:");
-		float tiprate = ab.nextFloat();
-
-		float  tipAmount = (tiprate*bill)/100;
-		float totalBill = bill + tipAmount;
-	}
-}
