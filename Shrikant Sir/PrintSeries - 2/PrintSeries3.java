@@ -6,7 +6,7 @@ class PrintSeries3
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a range : ");
-		int range = sc.nextInt();
+		
 		
 		
 		
