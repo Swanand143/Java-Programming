@@ -2,14 +2,5 @@
 import java.util.Scanner;
 class PrintSeries3
 {
-	public static void main(String[] args)
-	{
 	
-		
-		
-		
-		
-		
-		
-	}
 }
