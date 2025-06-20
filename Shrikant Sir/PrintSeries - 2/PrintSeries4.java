@@ -10,7 +10,7 @@ class PrintSeries4
 		int range = sc.nextInt();
 		for (int i=2; i<=range; i++)
 		{
-			int pow = 1;
+			
 			
 
 		}
