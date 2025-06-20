@@ -13,9 +13,7 @@ class PrintSeries4
 			int pow = 1;
 			for (int j=1; j<=3 ;j++)
 			{
-				pow*=i;
-			}
-			System.out.print((pow+i)+" ");
+
 		}
 	}
 }
