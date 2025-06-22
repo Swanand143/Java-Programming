@@ -17,7 +17,7 @@ class PrintSeries5
 			   {
 				 fact *= n;
 			   }
-			   sum += fact;
+			   
 			}
 			
 		}
