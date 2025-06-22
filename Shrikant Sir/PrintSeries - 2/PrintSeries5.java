@@ -19,7 +19,7 @@ class PrintSeries5
 			   }
 			   sum += fact;
 			}
-			System.out.print(sum+" ");
+			
 		}
 	}
 }
