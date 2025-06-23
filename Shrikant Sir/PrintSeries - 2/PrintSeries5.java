@@ -8,7 +8,7 @@ class PrintSeries5
 		
 		for (int i=1; i<=num ;i++)
 		{
-			int sum = 0;
+		
 			
 			
 		}
