@@ -13,10 +13,7 @@ class PrintSeries5
 			{
 				int fact=1;
 			
-			   for (int n=1; n<=j ;n++ )
-			   {
-				
-			   }
+			   
 			   
 			}
 			
