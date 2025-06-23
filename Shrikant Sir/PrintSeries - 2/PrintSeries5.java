@@ -15,7 +15,7 @@ class PrintSeries5
 			
 			   for (int n=1; n<=j ;n++ )
 			   {
-				 fact *= n;
+				
 			   }
 			   
 			}
