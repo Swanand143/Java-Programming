@@ -6,11 +6,6 @@ class PrintSeries5
 	{
 		int num = 7;
 		
-		for (int i=1; i<=num ;i++)
-		{
 		
-			
-			
-		}
 	}
 }
