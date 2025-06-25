@@ -10,8 +10,7 @@ class PrintSeries6
 			{
 				if (i%j==0)
 				{
-					prime = false;
-					break;
+					
 				}
 			}
 			
