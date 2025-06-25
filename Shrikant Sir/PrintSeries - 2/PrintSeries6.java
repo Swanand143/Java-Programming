@@ -14,9 +14,7 @@ class PrintSeries6
 					break;
 				}
 			}
-			if 
-					
-			}
+			
 		}
 	}
 }
