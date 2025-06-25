@@ -17,7 +17,7 @@ class PrintSeries6
 			if (prime)
 			{
 				System.out.print(start+" ");
-					start += i;
+					
 			}
 		}
 	}
