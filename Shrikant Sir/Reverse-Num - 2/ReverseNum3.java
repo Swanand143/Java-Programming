@@ -13,10 +13,7 @@ class ReverseNum3
 			rev = (rev*10)+rem;
 			num/=10;
 		}
-		if (rev>Integer.MAX_VALUE||rev<Integer.MIN_VALUE)
-		{
-			System.out.println(0);
-		}
+	
 		
 	}
 }
