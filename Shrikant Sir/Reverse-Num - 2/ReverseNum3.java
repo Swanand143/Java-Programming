@@ -17,8 +17,6 @@ class ReverseNum3
 		{
 			System.out.println(0);
 		}
-		else{
-		System.out.println("Reverse No : "+rev);
-		}
+		
 	}
 }
