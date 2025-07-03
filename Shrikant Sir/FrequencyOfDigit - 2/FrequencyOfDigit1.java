@@ -28,6 +28,5 @@ class FrequencyOfDigit1
 				}
 			}
 		}
-		System.out.println("Highest Repeating digit is "+digit+" with a freqency of "+max);
 	}
 }
