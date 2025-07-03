@@ -16,10 +16,7 @@ class FrequencyOfDigit
 					cnt++;
 				}
 			}
-			if (cnt!=0)
-			{
-				System.out.println(i+" : "+cnt);
-			}
+			
 		}
 	}
 }
