@@ -21,11 +21,7 @@ class FrequencyOfDigit1
 			}
 			if (cnt!=0)
 			{
-				if (max<cnt)
-				{
-					max = cnt;
-					digit = i;
-				}
+				
 			}
 		}
 	}
