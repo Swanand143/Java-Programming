@@ -11,10 +11,7 @@ class FrequencyOfDigit
 			for (long j=num; j>0 ;j/=10 )
 			{
 				long rem = j%10;
-				if (i==rem)
-				{
-					cnt++;
-				}
+				
 			}
 			
 		}
