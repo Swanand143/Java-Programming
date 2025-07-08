@@ -15,6 +15,9 @@ public class Array1 {
 		
 		boolean [] ar4 = new boolean[2];
 		System.out.println(ar4);
+		
+		short[] ar5 = new short[-1];
+		System.out.println(ar5);
 	}
 
 }
