@@ -2,17 +2,21 @@ package arraysprogram;
 
 public class SumOfArray {
 	
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
-		int[] arr = {10,20,30,40,50};
-		int sum = 0;
+		int[] arr = {1,2,3,4,5};
 		
-		for (int i = 0; i < arr.length; i++) {
-			
-			sum = sum + arr[i];
-			
-		}
-		
-		System.out.println("Sum = "+sum);
+		int ans = sumOfEle(arr);
+		System.out.println("Sum of Array is : " + ans);
 	}
+	
+//	Methods
+	public static int sumOfEle(int[] ref) {
+		int sum = 0;
+		for (int i = 0; i < ref.length; i++) {
+			sum += ref[i];
+		}
+		return sum;
+	}
+
 }
