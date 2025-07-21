@@ -27,6 +27,8 @@ public class RemoveEle {
 	
 //  Remove an Specific Element From an Array.
 	public static int[] removeEle(int[] ref, int ele) {
+		if (indexOf(ref, ele) < ref.length) {
+		
 		int[] upAr = new int[ref.length-1]; // 6
 		int i = 0;
 		while (i <= upAr.length) {
@@ -39,6 +41,11 @@ public class RemoveEle {
 			i++;
 		}
 		return upAr;
+		}
+		else {
+			System.out.println("Element Not Found !");
+			return null;
+		}
 	}
 
 
