@@ -17,18 +17,6 @@ public class ArithmaticException {
 		int ans = num/den;
 	    System.out.println("Ans : "+ans);
 		
-		
-//		try {
-//			
-//			int ans = num/den;
-//			System.out.println("Ans : "+ans);
-//			
-//		} 
-//		catch (ArithmeticException ref) {
-//			
-//			System.out.println("Don't divide by zero");
-//		}
-		
 	}
 
 }

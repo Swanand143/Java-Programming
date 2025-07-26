@@ -1,4 +1,4 @@
-class Return1
+class Return1 // add two string
 {
 	public static void main(String[] args) 
 	{

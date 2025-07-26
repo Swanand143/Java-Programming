@@ -1,0 +1,14 @@
+package arraysprogram;
+
+import java.util.Arrays;
+
+public class RemoveDuplicates {
+	public static void main(String[] args) {
+		int[] arr = {1,2,3,2,1,5,6,3};
+		System.out.println("Main Array : "+Arrays.toString(arr));
+		System.out.println("Ans Array : "+Arrays.toString(RemoveDuplicates));
+		
+		
+	}
+
+}

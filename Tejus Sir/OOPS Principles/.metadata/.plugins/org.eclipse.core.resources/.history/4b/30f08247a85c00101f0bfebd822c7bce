@@ -1,0 +1,25 @@
+package arraysprogram;
+
+public class HalfReverseArray {
+	
+	public static void main(String[] args) {
+		int[] arr = {10, 20, 30, 40, 50};  
+		int[] ans = revArray(arr);
+		System.out.println(Arrays.toString(ans));
+	}
+	
+	public static int[] revArray(int[] arr) {
+		int n = arr.length;
+		int start = (n % 2 == 0) ? n / 2 : (n / 2) + 1;
+		int end = n - 1;
+
+		while (start < end) {
+			int temp = arr[start];
+			arr[start] = arr[end];
+			arr[end] = temp;
+			start++;
+			end--;
+		}
+		return arr;
+	}
+}

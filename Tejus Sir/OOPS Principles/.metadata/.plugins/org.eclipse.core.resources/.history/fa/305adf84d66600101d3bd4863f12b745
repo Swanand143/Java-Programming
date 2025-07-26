@@ -1,0 +1,12 @@
+package ArraysObject;
+
+public class EmployeeDBDriver {
+	
+	public static void main(String[] args) {
+		
+		EmployeeDB ref = new EmployeeDB("Scott", "Tiger");
+		ref.login("Scott", "Tiger");
+		ref.showDB();
+	}
+
+}

@@ -6,6 +6,7 @@ class CoPrime // check Co-Prime  or not from entered two numbers/ for ex. 5,3
 	    Scanner sc = new Scanner(System.in);
 	    System.out.print("Enter a num 1 : ");
 	    int num1 = sc.nextInt();
+		
 	    System.out.print("Enter a num 2 : ");
 	    int num2 = sc.nextInt();
 		System.out.println("HCF is : "+hcf(num1,num2));

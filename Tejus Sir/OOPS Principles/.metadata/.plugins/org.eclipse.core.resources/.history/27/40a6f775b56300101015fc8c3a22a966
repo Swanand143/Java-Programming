@@ -1,0 +1,31 @@
+package sortingandsearching;
+
+import java.util.Arrays;
+
+public class BinarySearch {
+	public static void main(String[] args) {
+		int[] arr = {9,3,5,8,2,1,4,6,7,10};
+		System.out.println("Main Array : "+Arrays.toString(arr));
+		System.out.println("Element found at index : "+binarySearch(arr, 4));
+	}
+	public static int binarySearch(int[] arr, int ele) 
+	{
+		BubbleSort.bubbleSort(arr);// before binary search we need the array must be sorted.
+		int start = 0, end = arr.length-1, mid = (start + end)/2;
+		while(start<=end)
+		{
+			if (arr[mid] == ele) {
+				return mid;
+			}
+			else if (ele > arr[mid]) {
+				start = mid+1;
+			}
+			else if (ele < arr[mid]) {
+				end = mid-1;
+			}
+			mid = (start + end)/2;
+		}
+		return -1;
+	}
+
+}

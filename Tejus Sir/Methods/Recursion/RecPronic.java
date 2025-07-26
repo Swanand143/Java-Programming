@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class PronicNum// to check whether entered number is Pronic or not
+class RecPronic// to check whether entered number is Pronic or not
 {
 	public static void main(String[] args)
 	{

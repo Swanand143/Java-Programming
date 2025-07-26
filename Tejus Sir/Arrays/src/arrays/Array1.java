@@ -17,7 +17,7 @@ public class Array1 {
 		System.out.println(ar4);
 		
 		short[] ar5 = new short[-1];
-		System.out.println(ar5);
+		System.out.println(ar5);//NegativeArraySizeException
 	}
 
 }

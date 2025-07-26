@@ -1,0 +1,14 @@
+package arraysprogram;
+
+import java.util.Arrays;
+
+public class Union {
+	
+	public static void main(String[] args) {
+		int[] arr1 = {1,2,3,4,5};
+		int[] arr2 = {2,4,6,7,8};
+		System.out.println("Array 1 : "+Arrays.toString(arr1));
+		System.out.println("Array 2 : "+Arrays.toString(arr2));
+	}
+
+}
