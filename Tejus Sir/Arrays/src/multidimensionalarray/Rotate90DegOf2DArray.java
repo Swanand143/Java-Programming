@@ -1,0 +1,59 @@
+package multidimensionalarray;
+
+import java.util.Arrays;
+
+public class Rotate90DegOf2DArray {
+	
+	public static void main(String[] args) {
+		
+		char [][] ar = {
+				{'a','b','c','d'},
+				{'e','f','g','h'},
+				{'i','j','k','l'},
+				{'m','n','o','p'}
+		};
+		rotate90DegOf2DArray(ar);
+		System.out.println("Ans : ");
+		for (int i = 0; i < ar.length; i++) {
+			System.out.println(Arrays.toString(ar[i]));
+		}
+	}
+	
+	
+	public static char[][] tranpose(char[][]ar)
+	{
+		for (int i = 0; i < ar.length; i++) {
+			for (int j = i; j < ar[i].length; j++) {
+				char temp ;
+				if (j>i) {
+					temp = ar[i][j];
+					ar[i][j] = ar[j][i];
+					ar[j][i] = temp;
+				}
+			}
+		}
+		return ar;
+	}
+	
+	public static char[][] rotate90DegOf2DArray(char[][]ar)
+	{
+		tranpose(ar);
+		
+		for (int k = 0; k < ar.length; k++) {
+			reverse(ar[k]);
+		}
+		return ar;
+	}
+	public static char[] reverse(char[]ar) {
+		int i = 0,j=ar.length-1;
+		while (i<j) {
+			char temp = ar[i];
+			ar[i]= ar[j];
+			ar[j]=temp;
+			i++;
+			j--;
+		}
+		return ar;
+	}
+
+}
