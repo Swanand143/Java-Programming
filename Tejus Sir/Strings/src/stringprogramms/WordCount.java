@@ -1,0 +1,41 @@
+package stringprogramms;
+import java.util.Scanner;			
+public class WordCount {
+	
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a sentence: ");
+        String sentence = sc.nextLine();
+
+        countWords(sentence.toLowerCase());
+        sc.close();
+    }
+
+    public static void countWords(String sentence) {
+        String[] words = sentence.split(" ");
+        int[] count = new int[words.length];
+
+        for (int i = 0; i < words.length; i++) {
+            if (words[i].equals("visited")) continue;
+            int c = 1;
+            for (int j = i + 1; j < words.length; j++) {
+                if (words[i].equals(words[j])) {
+                    c++;
+                    words[j] = "visited";
+                }
+            }
+            count[i] = c;
+        }
+
+        printResult(words, count);
+    }
+
+    public static void printResult(String[] words, int[] count) {
+        for (int i = 0; i < words.length; i++) {
+            if (!words[i].equals("visited")) {
+                System.out.println(words[i] + " -> " + count[i]);
+            }
+        }
+    }
+
+}
