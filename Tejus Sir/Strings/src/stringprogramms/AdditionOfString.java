@@ -1,0 +1,44 @@
+package stringprogramms;
+
+import java.util.Iterator;
+
+public class AdditionOfString {
+	
+	public static void main(String[] args) {
+		String s1 = "847464";
+		String s2 = "99999999996";
+		System.out.println("Ans : "+add(s1, s2));;
+		
+	}
+	public static String add(String s1,String s2)
+	{
+		long l1 = Long.parseLong(s1);
+		long l2 = Long.parseLong(s2);
+		String ans = "";
+		if (s1.length()>s2.length()) {
+			s2 = "0".repeat(s1.length()-s2.length())+s2;
+//			System.out.println(s2);
+		}
+		else {
+			s1 = "0".repeat(s2.length()-s1.length())+s1;
+//			System.out.println(s1);
+		}
+		int carry = 0;
+		for (int i = s1.length()-1; i >=0 ; i--) {
+			int sum = (s1.charAt(i)-48)+(s2.charAt(i)-48)+carry;
+			carry =0;
+			if (sum<=9) {
+				ans=sum+ans;
+			}
+			else {
+				ans = (sum%10)+ans;
+				carry = sum/10;
+			}
+		}
+		if (carry>0) {
+			return carry+ans;
+		}
+		return ans;
+	}
+
+}
