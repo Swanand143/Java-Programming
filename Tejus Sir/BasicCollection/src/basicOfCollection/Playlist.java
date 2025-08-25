@@ -93,4 +93,46 @@ public class Playlist {
 			System.out.println("No songs in the playlist!");
 		}
 	}
+	
+	public void nextSong()
+	{
+		if (songs[1]!=null) {
+			System.out.println("Next Song : "+songs[1]);
+		}
+		else {
+			System.out.println("No song to play next");
+		}
+	}
+	
+	public int searchSong(String name,String movie)
+	{
+		for (int i = 0; i < count; i++) {
+			if (songs[i].getName().equalsIgnoreCase(name)&&songs[i].getName().equalsIgnoreCase(movie)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	public void playNext(String name,String movie)
+	{
+		int index = searchSong(name, movie);
+		if (index==0) {
+			System.out.println(name+" song already playing...");
+		}
+		else if (index==1) {
+			System.out.println(name+" song will be played next");
+		}
+		else if (index>1) {
+			Song temp =	songs[index];
+			for (int i = index; i > 1; i--) {
+				songs[i] = songs[i-1];
+			}
+			songs[1] = temp;
+			System.out.println(name+" song will be played next");
+		}
+		else {
+			System.out.println("Song not in playlist!");
+		}
+	}
 }
