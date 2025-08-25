@@ -13,7 +13,13 @@ public class PlaylistDriver {
 		p1.addSong("DJ Waley Babu", "Badshah", "3:15", "Badshah", "Single");
 		p1.addSong("Genda Phool", "Badshah", "3:35", "Badshah", "Single");
 		
-		p1.removeSong("Genda Phool", "Single");
+		//p1.removeSong("Genda Phool", "Single");
+		
+		//p1.nextSong();
+		
+		//p1.playNext("Desi Kalakaar", "Desi Kalakaar");
+		
+		p1.shuffle();
 		
 		p1.showPlaylist();
 	}

@@ -135,4 +135,18 @@ public class Playlist {
 			System.out.println("Song not in playlist!");
 		}
 	}
+	
+	public void shuffle()
+	{
+		for (int i = count-1; i > 0;) {
+			int j = (int) (Math.random()*10);
+			if (j>=0 && j<count) {
+				Song temp = songs[i];
+				songs[i] = songs[j];
+				songs[j] = temp;
+				i--;
+			}
+		}
+		System.out.println("Shuffle On");
+	}
 }
