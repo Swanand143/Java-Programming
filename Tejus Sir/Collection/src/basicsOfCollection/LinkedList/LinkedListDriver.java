@@ -8,10 +8,18 @@ public class LinkedListDriver {
 		l1.addVal(10);
 		l1.addVal(20);
 		l1.addVal(30);
-		Node head = l1.iterate();
-		while (head != null) {
-		    System.out.println(head.val);
-		    head = head.next();
+		l1.addVal(40);
+		l1.addVal(50);
+		l1.addVal(60);
+		l1.addVal(70);
+		l1.addVal(80);
+		l1.addVal(90);
+		l1.addVal(100);
+		
+		Node ref = l1.reverseIterate();
+		while (ref != null) {
+		    System.out.println(ref.val);
+		    ref = ref.previous();
 		}
 	}
 
