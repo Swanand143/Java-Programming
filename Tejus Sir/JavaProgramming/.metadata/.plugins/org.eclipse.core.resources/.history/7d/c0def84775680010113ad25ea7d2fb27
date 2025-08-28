@@ -1,0 +1,16 @@
+package multidimensionalarray;
+
+public class CommitRoleBackDriver {
+	
+	public static void main(String[] args) {
+		
+		CommitRoleBack c1 = new CommitRoleBack();
+		
+		c1.addName("Rani");
+		c1.addName("Ganesh");
+		c1.removeName("Scott");
+		c1.roleBack(3);
+		c1.printDB();
+	}
+
+}

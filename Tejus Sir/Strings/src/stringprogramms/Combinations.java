@@ -7,7 +7,7 @@ public class Combinations {
 	
 	public static void main(String[] args) {
 		
-		char[] ch = {'a','b','c',};
+		char[] ch = {'a','b','c','d'};
 		createPermutations(ch, 0);
 	}
 	public static void createPermutations(char[]ar,int refIndex)

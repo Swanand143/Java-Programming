@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Encapsulation.BankApp"/>
+    <fullyQualifiedTypeName name="Encapsulation.Student"/>
+    <fullyQualifiedTypeName name="java.lang.invoke.MethodHandles.Lookup.ClassOption"/>
+    <fullyQualifiedTypeName name="inheritance.BankAccount"/>
+    <fullyQualifiedTypeName name="inheritance.SavingsAccount"/>
+    <fullyQualifiedTypeName name="Que1.Car"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="arrays.Student"/>
+    <fullyQualifiedTypeName name="javax.crypto.SealedObject"/>
+    <fullyQualifiedTypeName name="ArraysObject.Employee"/>
+    <fullyQualifiedTypeName name="ArraysObject.EmployeeDB"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="sun.swing.SwingUtilities2.RepaintListener"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.SWAP"/>
+    <fullyQualifiedTypeName name="basicOfCollection.Song"/>
+    <fullyQualifiedTypeName name="basicOfCollection.Playlist"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="basicOfCollection.LinkedList"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+</qualifiedTypeNameHistroy>

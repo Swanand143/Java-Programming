@@ -1,4 +1,4 @@
-package arraysprogram;
+package multidimensionalarray;
 
 import java.util.Arrays;
 

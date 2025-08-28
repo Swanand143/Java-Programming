@@ -1,0 +1,22 @@
+package stringprogramms;
+
+public class AdditionOfString {
+	
+	public static void main(String[] args) {
+		String s1 = "12340847";
+		String s2 = "48729";
+		add(s1, s2);
+		
+	}
+	public static void add(String s1,String s2)
+	{
+		long l1 = Long.parseLong(s1);
+		long l2 = Long.parseLong(s2);
+		String ans = "";
+		if (s1.length()>s2.length()) {
+			s2 = s2.repeat(2)+s2;
+			System.out.println(s2);
+		}
+	}
+
+}

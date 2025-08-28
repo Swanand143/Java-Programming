@@ -13,7 +13,7 @@ public class NumToWords {
     };
 
     public static void main(String[] args) {
-        int num = -1200312;
+        int num = 1200312;
         System.out.println(convert(num));
     }
 

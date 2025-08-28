@@ -1,0 +1,21 @@
+package abstraction;
+
+public abstract class Calculator {
+	
+	String brand = "Casio"; // Ns Var
+	
+	public Calculator() {
+		
+	}
+	
+	//Here We Design Abstract Methods
+	public abstract int add(int n1,int n2);
+	public abstract int sub(int n1,int n2);
+	public abstract float mul(float n1,float n2);
+	public abstract float div(float n1,float n2);
+	
+	//Here We Design One Concrete Method
+	public String modulo(float n1, float n2) {
+		return "Modulo is : " + n1%n2;
+	}
+}
