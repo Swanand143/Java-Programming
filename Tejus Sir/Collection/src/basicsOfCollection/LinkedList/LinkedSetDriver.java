@@ -22,7 +22,7 @@ public class LinkedSetDriver {
 		l1.addAll(l2);
 		
 		System.out.println(l1);
-		System.out.println(l2);
+		//System.out.println(l2);
 	
 	}
 

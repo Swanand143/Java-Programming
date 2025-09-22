@@ -18,5 +18,4 @@ public class ReverseArray2 {
 		}
 		return temp;
 	}
-
 }

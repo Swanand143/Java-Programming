@@ -20,16 +20,14 @@ public class LinkedSet extends LinkedList{
 	{
 		Node head = l.iterate();
 		
-       
-        	
     		while (head!=null) {
+    			
     			if (!contains(head)) {
     			addVal(head.val);
-    			}
+    		}
     			head = head.next();
     			size++;
-    		
-    		return head==null;
+    		    return head==null;
 		}
         return false;
 	}
