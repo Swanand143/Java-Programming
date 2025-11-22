@@ -7,7 +7,6 @@ class LogicalOperator
 		System.out.println(true&&false); //false
 		System.out.println((!true)&&true); //false
 		System.out.println(0%2==0||1%2=1); //true
-		System.out.println(4>6&&false); //false
 		
 
 	}
